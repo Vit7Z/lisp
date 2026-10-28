@@ -1,0 +1,6 @@
+menu Объем 
+menu --77
+menu Характеристики
+menu --77
+dscr Для S7-1x00 CPU/SINAMICS.
+SIMATIC S7, артикул 6ES7954-8LC03-0AA0\4Мб\3,3В Flash\0,01

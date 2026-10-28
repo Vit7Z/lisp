@@ -1,0 +1,19 @@
+menu Ширина,
+menu мм
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr ***
+R5NTE40\400\1,1
+R5TE60\600\2
+R5TE80\800\3

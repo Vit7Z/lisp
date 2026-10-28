@@ -1,0 +1,7 @@
+menu Число жил х
+menu Диаметр
+menu жилы, мм
+menu Наружний
+menu диаметр,
+menu мм
+МКЭШВнг(А)-LS\05-cable-inst-mkeshv-ng-a-ls.txt\2

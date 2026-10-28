@@ -1,0 +1,86 @@
+;/////// *************************************************************///////////////////////////////////////////////////////////////////////////////////////////////////////////
+;/////// УГО кран трехходовой гост 21.205                             ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+;/////// *************************************************************///////////////////////////////////////////////////////////////////////////////////////////////////////////
+(defun c:699-gost-21-205-crane-three-running
+
+( / adoc angl angl-blck circle-1 hatch-1 lin-1 lin-2 lin-3 lin-4 lin-5 lin-6 lin-7 pnt-drctn pnt-ins)
+
+(vl-load-com)
+(vla-startundomark
+  (setq adoc (vla-get-activedocument (vlax-get-acad-object)));setq
+);undo
+
+(setvar "cmdecho" 0)
+(setvar "osmode" 0)
+
+(if	(= (tblsearch "block" "кран-трехходовой-гост-21-205-схтх") nil);создаем блок
+  (progn
+		
+		(command "_circle" '(0 3) 0.5)
+    (setq circle-1 (entlast))
+    
+    (command "_hatch" "solid" circle-1 "")
+    (setq hatch-1 (entlast))
+
+		(command "_line" '(-1.5 0) '(1.5 0) "");вертик кран
+		(setq lin-1 (entlast))
+		(command "_line" '(-1.5 6) '(1.5 6) "")
+		(setq lin-2 (entlast))
+		(command "_line" '(-1.5 0) '(1.5 6) "")
+		(setq lin-3 (entlast))
+		(command "_line" '(1.5 0) '(-1.5 6) "")
+		(setq lin-4 (entlast))
+		
+		(command "_line" '(0 3) '(3 4.5) "");треугольник сбоку
+		(setq lin-5 (entlast))
+		(command "_line" '(3 4.5) '(3 1.5) "")
+		(setq lin-6 (entlast))
+		(command "_line" '(3 1.5) '(0 3) "")
+		(setq lin-7 (entlast))
+				
+		(command "_block" "кран-трехходовой-гост-21-205-схтх" '(0 0) circle-1 hatch-1 lin-1 lin-2 lin-3 lin-4 lin-5 lin-6 lin-7 "");command
+  );progn
+);if
+
+(setvar "osmode" 6199)
+
+(while (/= (setq pnt-ins (getpoint "\nУкажите точку вставки\n")) nil)
+	(setq pnt-drctn (getpoint "\nУкажите точку направления\n")
+				angl (atoi (angtos (angle pnt-ins pnt-drctn)))
+	);setq
+
+	(setvar "osmode" 0)
+
+	(cond
+		((and (< angl 135) (> angl 45)) ;вверх
+			(setq angl-blck 0);setq
+		);=
+
+		((and (<= angl 225) (>= angl 135)) ;влево
+			(setq angl-blck 90);setq
+		);=
+
+		((and (< angl 315) (> angl 225)) ;вниз
+			(setq angl-blck 180);setq
+		);=
+		
+		((or (>= angl 315) (<= angl 45)) ;вправо
+			(setq angl-blck 270);setq
+		);=
+	);cond
+	
+	(command "_insert" "кран-трехходовой-гост-21-205-схтх" "_X" 1 "_Y" 1 "_Z" 1 "_R" angl-blck pnt-ins)
+	
+	(setvar "osmode" 6199)
+);while
+
+
+(setvar "osmode" 6199)
+(setvar "cmdecho" 1)
+(vla-endundomark adoc)
+(princ)
+)
+
+;/////// *************************************************************///////////////////////////////////////////////////////////////////////////////////////////////////////////
+;/////// КОНЕЦ ПРОГРАММЫ                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+;/////// *************************************************************///////////////////////////////////////////////////////////////////////////////////////////////////////////

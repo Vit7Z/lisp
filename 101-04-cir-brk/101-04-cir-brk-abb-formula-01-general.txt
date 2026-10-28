@@ -1,0 +1,3 @@
+A1 125A, 3 полюса\101-04-cir-brk-abb-formula-a1-3.txt\5
+A2 250A, 3 полюса\101-04-cir-brk-abb-formula-a2-3.txt\5
+Перегородки\101-04-cir-brk-abb-formula-terminal-covers.txt\5

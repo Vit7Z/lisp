@@ -1,0 +1,5 @@
+menu Uпит.,
+menu В
+menu Характеристики
+menu --77
+CM 1241, артикул 6ES7 241-1CH30-1XB0\=24В\RS485, Modbus (RTU, ASCII)\0,2    

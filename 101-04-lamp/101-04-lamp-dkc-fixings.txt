@@ -1,0 +1,12 @@
+menu Масса,
+menu кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr Магнитный крепеж для светильников R5LA08/13/21.
+R5MAG01N\0,03

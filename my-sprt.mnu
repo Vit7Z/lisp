@@ -1,0 +1,723 @@
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+***MENUGROUP=my-sprt
+
+***POP35
+[ОБЩ]  
+
+[Форматы СПДС]^C^C_01-formats-spds-01-general 
+[-------------]
+
+[Печать в PDF]^C^C_02-print-to-pdf-01-all
+[-------------]
+
+[Обложка]^C^C_01-cover-page-explanatory-note
+
+[Штамп ГИПа]^C^C_02-stamp-gip
+[-------------]
+
+[->Ведомость Осн Комплектов РЧ]
+	[Шапка]^C^C_02-main-sets-working-drawings-02-ins-header
+	[<-Строка пустая]^C^C_02-main-sets-working-drawings-03-ins-empty-line
+
+[->Ведомость Раб Чертежей ОК]
+	[По листам]^C^C_02-working-drawings-main-set-01-ins-by-sheets
+	[Шапка]^C^C_02-working-drawings-main-set-02-ins-header
+	[<-Строка пустая]^C^C_02-working-drawings-main-set-03-ins-empty-line
+
+[->Ссылочные документы]
+	[Документы]^C^C_02-reference-doc-01-ins-documents
+	[Шапка]^C^C_02-reference-doc-02-ins-header
+	[<-Строка пустая]^C^C_02-reference-doc-03-ins-empty-line
+
+[->Прилагаемые документы]
+	[Прилагаемые док.]^C^C_02-enclosed-doc-01-ins-documents
+	[Спецификация]^C^C_02-enclosed-doc-02-ins-spcf
+	[Общий вид]^C^C_02-enclosed-doc-02-ins-cgv
+	[Опросный лист]^C^C_02-enclosed-doc-02-ins-question
+	[<-Строка пустая]^C^C_02-reference-doc-03-ins-empty-line	
+[-------------]
+
+[Нумерация листов]^C^C_02-numbering-page 
+[Удаление листа]^C^C_01-base-sheet-removal
+[Изм. в штамп]^C^C_02-ins-text-changes-into-stamp
+[RENAME]^C^C_RENAME
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+***POP37
+[ФСА]
+[Приборы УГО]^C^C_03-symbols-devices-01-general
+[H, L, HH, LL]^C^C_03-symbols-devices-04-limits
+[-------------]
+
+[ИМ норм Открыт]^C^C_03-execut-mech-open-regul
+[ИМ норм Закрыт]^C^C_03-execut-mech-close-regul
+[ИМ Общ]^C^C_03-execut-mech-invariable-pos
+[ИМ соленоид Общ]^C^C_03-execut-mech-solenoid-invariable
+[-------------]
+
+[ОУ ПУТиТЭ]^C^C_03-perfect-device-putite
+[ОУ ГОСТ 21.408]^C^C_03-perfect-device-gost-21-408
+[ОУ прямое до 70]^C^C_03-perfect-device-direct-to-70
+[ОУ прямое свыше 70]^C^C_03-perfect-device-direct-above-70
+[ОУ для импульсных линий]^C^C_03-perfect-device-pulse-lines
+[-------------]
+
+[Линия связи на приборе]^C^C_03-communication-line-device
+[Линия связи на ЭИМ]^C^C_03-communication-line-eem
+[Параметр первый]^C^C_03-parametr-01
+[Параметр последующий]^C^C_03-parametr-02
+[Подвал ФСА, сигналы]^C^C_03-basement-schem-auto-01-sig
+[Подвал ФСА, шкафы]^C^C_03-basement-schem-auto-02-box
+[Границы проектирования]^C^C_03-design-borders
+[-------------]
+
+[ТТ ФСА]^C^C_03-tech-rqrmnts 
+
+
+***POP39
+[СПЭ]
+
+[Подвал сх эл пит]^C^C_04-installation-site
+[Разбиение по точке]^C^C_901-text-breakage-point-01
+[Поз. ФСА --> СПЭ]^C^C_04-from-sa-to-seb
+[-------------]
+
+[Нумерация эл аппараты]^C^C_04-numbering-devices-1
+[Нумерация продолжение]^C^C_04-numbering-continued
+[Нумерация жил XX01, XX02, XX03...]^C^C_04-numbering-wiring-1
+[Нумерация жил XX.1, XX.2, XX.3...]^C^C_04-numbering-wiring-2
+[Нумерация жил вниз]^C^C_04-numbering-wiring-down
+[Ссылки на листы]^C^C_02-reference
+[-------------]
+
+[ТТ СПЭ]^C^C_04-tech-req 
+
+
+***POP41
+[ССВП]
+
+[Лист 2]^C^C_05-schem-cnct-ext-cond-2-page
+[Таблица ССиПВП, шапка]^C^C_05-table-ssipvp-head
+[Таблица ССиПВП]^C^C_05-table-ssipvp
+[-------------]
+
+[Поз. ФСА --> ССВП]^C^C_05-from-sa-to-ssipvp
+[Подвал, концы кабелей]^C^C_05-cellar-scec
+[Подвал, шкаф]^C^C_05-cellar-scec-box
+[-------------]
+
+[Копирование, поворот 90 влево]^C^C_05-seb-to-scec
+[Жилы СПЭ --> Жилы прибор]^C^C_05-wires-from-spe-to-device
+[Жилы прибор --> Жилы КС, вВЕРХ БЕЗ обозн.]^C^C_05-wires-to-term-01-wout-text
+[Жилы прибор --> Жилы КС, вНИЗ С обозн.]^C^C_05-wires-to-term-02-with-text
+[Жилы прибор --> Жилы КС, вВЕРХ С обозн.]^C^C_05-wires-to-term-01-with-text
+[Экран и сальник в коробке]^C^C_05-connecting-to-junc-box
+[-------------]
+
+[Присоед. к процессу]^C^C_05-connect-to-proc
+[Подсчет закладных]^C^C_05-connect-to-proc-calc
+[-------------]
+
+[Труба имп. ССВП]^C^C_05-pipe-pulse-01-general
+[Длина имп. труб]^C^C_05-pipe-pulse-lngth
+[Нумерация имп. труб]^C^C_05-pipe-pulse-numbering
+[-------------]
+
+[Кабель ССВП]^C^C_05-cable-01-general
+[Длина кабелей, Лист]^C^C_05-cable-lngth-sheet
+[Длина кабелей, Итого]^C^C_05-cable-lngth-total
+[Длина кабеля + к сущ.]^C^C_05-cable-lngth-add
+[-------------]
+
+[М. рукав ССВП]^C^C_05-metal-hose-01-general
+[Длина м. рукавов]^C^C_05-metal-hose-lngth
+[-------------]
+
+[ТТ ССВП]^C^C_05-tech-req
+
+
+***POP43
+[СПВП]
+
+[Листы СПВП]^C^C_07-schem-cnct-ext-cond-2-page
+[-------------]
+
+[Жилы КС --> Жилы шкаф]^C^C_07-wires-from-junc-box-to-terminal
+[-------------]
+
+[Экран кабеля 1 с MTEXT]^C^C_07-shld-cble-case-1-mtext
+[Экран кабеля 2 соедин]^C^C_07-shld-cble-case-2-join
+[-------------]
+
+[Линия кабеля 0.6 ]^C^C_07-line-06-mm-s-style 
+
+
+***POP45
+[ПЭ]
+
+[Листы ПЭ]^C^C_100-le-pages-01-general
+[Пустая строка]^C^C_100-le-empty-line-01
+[Шапка ПЭ]^C^C_100-le-pages-header
+[-------------]
+
+[Поз. --> ПЭ]^C^C_100-pos-from-shem-el-to-le
+[Поз. ФСА --> ПЭ]^C^C_100-pos-from-shem-auto-to-le
+[ПЭ --> Файл]^C^C_100-from-le-to-txt
+[-------------]
+
+[Заголовки ПЭ]^C^C_100-le-sections
+
+
+***POP47
+[ЧРО]
+
+[Шапка СПЦФ ЧРО]^C^C_08-head-spcf-dae
+[Пустая строка]^C^C_09-empt-lin-le-cgv-1
+[-------------]
+
+[Кабель СВП в кабель ЧРО]^C^C_08-cbl-dsign-draw-arr-equip
+[-------------]
+
+[Шапка экспликации]^C^C_08-explication-head
+[Пустая строка экспликации]^C^C_08-explication-tmpl
+[-------------]
+
+[УГО]^C^C_08-conditional-graphic-designations
+[-------------]
+
+[ТТ ЧРО]^C^C_08-tech-req
+
+
+***POP49
+[СО-1]
+[Листы СПЦФ]^C^C_101-00-spcf-pages-01-general
+[Пустая строка]^C^C_101-00-spcf-empty-line
+[Нумерация]^C^C_101-00-spcf-numbering
+[-------------]
+
+[ПЭ (поз., кол.) --> СПЦФ]^C^C_101-00-from-le-to-spcf
+[ЧРО, ОВШ (поз., кол.) --> СПЦФ]^C^C_101-00-from-lecgv-to-spcf
+[СПЦФ --> Файл]^C^C_101-00-from-spcf-to-txt
+[-------------]
+
+[Заголовки СПЦФ]^C^C_101-00-spcf-sections
+
+
+***POP51
+[СО-2]
+
+[Температура]^C^C_101-01-tempr-01-general
+[Давление]^C^C_101-01-prs-01-general
+[Уровень]^C^C_101-01-lvl-01-general
+[Расход]^C^C_101-01-flow-01-general
+[Учет тепла]^C^C_101-01-heat-meter-01-general
+[Учет газа, пара]^C^C_101-01-gas-01-general
+[Загазованность]^C^C_101-01-gas-detection-01-general
+[Приборы разн.]^C^C_101-01-sec-dev-01-general
+[Контроллеры]^C^C_101-01-plc-01-general
+[ЭИМ]^C^C_101-01-exec-mech-01-general
+[-------------]
+
+[Щиты и пульты]^C^C_101-03-cabinet-auto-01-general
+[-------------]
+
+[Электроаппараты]^C^C_101-04-el-dev-01-general
+[-------------]
+
+[Трубопроводная арматура]^C^C_101-05-valves-01-general
+[-------------]
+
+[Кабели и Провода 1]^C^C_101-06-cabels-01-general
+[Кабели и Провода 2]^C^C_101-06-cabels-02-general
+[-------------]
+
+[Материалы]^C^C_101-07-mtrl-01-general
+[-------------]
+
+[Монтажные узлы и изд]^C^C_101-08-instparts-01-general
+    
+    
+***POP53
+[ОВШ]
+
+[Листы ОВШ]^C^C_09-cgv-pages-01-general
+[Пустая строка]^C^C_09-cgv-le-empty-line-01
+[Нумерация]^C^C_09-cgv-numbering-page
+[-------------]
+
+[ПЭ (все) --> ОВШ]^C^C_09-cgv-from-le-to-cgv-1
+[ПЭ (поз, кол.) --> ОВШ]^C^C_09-cgv-from-le-to-cgv-2
+[ОВШ --> Файл]^C^C_09-cgv-from-cgv-to-txt
+[-------------]
+
+[Заголовки ПЭ для ОВШ]^C^C_09-cgv-le-sections
+[-------------]
+
+[ТТ ОВШ]^C^C_09-cgv-tech-req
+
+
+***POP55
+[ТХСХ]
+
+[Ду*]^C^C_700-diameter-of-a-pipe
+
+[Конец трубы]^C^C_699-pipeend
+
+[Осевая линия]^C^C_699-axial-line
+
+
+***TOOLBARS
+
+////--------------------------------------------------------------------------------------
+**TB_03_фса_ОУ
+[_Toolbar(03 фса Отб Устр, _Floating, _Hide, 742,121,1)]
+
+[_Button(ОУ ПУТиТЭ, 03-perfect-device-putite.bmp, 03-perfect-device-putite.bmp )]^C^C_03-perfect-device-putite
+[_Button(ОУ ГОСТ 21.408, 03-perfect-device-gost-21-408.bmp, 03-perfect-device-gost-21-408.bmp )]^C^C_03-perfect-device-gost-21-408
+[_Button(ОУ прямое до 70, 03-perfect-device-direct-to-70.bmp, 03-perfect-device-direct-to-70.bmp )]^C^C_03-perfect-device-direct-to-70
+[_Button(ОУ прямое свыше 70, 03-perfect-device-direct-above-70.bmp, 03-perfect-device-direct-above-70.bmp )]^C^C_03-perfect-device-direct-above-70
+[_Button(ОУ для импульсных линий, 03-perfect-device-pulse-lines.bmp, 03-perfect-device-pulse-lines.bmp )]^C^C_03-perfect-device-pulse-lines
+
+
+////--------------------------------------------------------------------------------------
+**TB_03_фса_ИМ
+[_Toolbar(03 фса Исп Мех, _Floating, _Hide,742,121,1)]
+
+[_Button(ИМ норм Открыт, 03-execut-mech-open-regul.bmp, 03-execut-mech-open-regul.bmp )]^C^C_03-execut-mech-open-regul
+[_Button(ИМ норм Закрыт, 03-execut-mech-close-regul.bmp, 03-execut-mech-close-regul.bmp )]^C^C_03-execut-mech-close-regul
+[_Button(ИМ Общ, 03-execut-mech-invariable-pos.bmp, 03-execut-mech-invariable-pos.bmp )]^C^C_03-execut-mech-invariable-pos
+[_Button(ИМ соленоид Общ, 03-execut-mech-solenoid-invariable.bmp, 03-execut-mech-solenoid-invariable.bmp )]^C^C_03-execut-mech-solenoid-invariable
+
+
+////--------------------------------------------------------------------------------------
+**TB_03_фса_АСУ
+[_Toolbar(03 фса Линии Связи, _Floating, _Hide,742,121,1)]
+
+[_Button(Линия связи на приборе, 03-communication-line-device.bmp, 03-communication-line-device.bmp )]^C^C_03-communication-line-device
+[_Button(Линия связи на ЭИМ, 03-communication-line-eem.bmp, 03-communication-line-eem.bmp )]^C^C_03-communication-line-eem
+[_Button(Параметр первый, 03-parametr-01.bmp, 03-parametr-01.bmp )]^C^C_03-parametr-01
+[_Button(Параметр последующий, 03-parametr-02.bmp, 03-parametr-02.bmp )]^C^C_03-parametr-02
+[_Button(Прямоугольник подвала, 03-сellar-rectangle.bmp, 03-сellar-rectangle.bmp )]^C^C_03-сellar-rectangle
+
+
+////--------------------------------------------------------------------------------------
+**TB_04_сэп
+[_Toolbar(04 сэп, _Floating, _Show,742,120,1)]
+
+[_Button(Подвал для СЭП, 04-cap-tble-seb.bmp, 0100-cap-tble-seb.bmp)]^C^C_04-cap-tble-seb
+[_Button(Стрелка, 04-arrow-general.bmp, 04-arrow-general.bmp )]^C^C_04-arrow-general
+[_Button(Жила, 04-vein.bmp, 04-vein.bmp )]^C^C_04-vein
+[_Flyout(04 сэп линии, 04-line-of-phase.bmp, 04-line-of-phase.bmp, _OtherIcon, TB_04_сэп_линии)]
+[_Flyout(04 сэп отрезки, 04-len-segment-w-dot.bmp, 04-len-segment-w-dot.bmp, _OtherIcon, TB_04_сэп_отрезки)]
+[_Flyout(04 сэп точка, 04-pnt-diam-1mm.bmp, 04-pnt-diam-1mm.bmp, _OtherIcon, TB_04_сэп_точка)]
+[_Flyout(04 сэп уго 01, 04-cntct-closing.bmp, 04-cntct-closing.bmp, _OtherIcon, TB_04_сэп_уго_01)]
+[_Flyout(04 сэп уго 02, 04-auto-swtch-1-p-v.bmp, 04-auto-swtch-1-p-v.bmp, _OtherIcon, TB_04_сэп_уго_02)]
+[_Flyout(04 сэп уго 03, 04-lamp-heating.bmp, 04-lamp-heating.bmp, _OtherIcon, TB_04_сэп_уго_03)]
+
+
+////--------------------------------------------------------------------------------------
+**TB_04_сэп_точка
+[_Toolbar(04 сэп точка, _Floating, _Hide, 742, 130, 1)]
+
+[_Button(Точка 1мм, 04-pnt-diam-1mm.bmp, 04-pnt-diam-1mm.bmp)]^C^C_04-pnt-diam-1mm
+[_Button(Точка 1мм сверху от точки, 04-pnt-diam-1mm-above.bmp, 04-pnt-diam-1mm-above.bmp)]^C^C_04-pnt-diam-1mm-above
+[_Button(Точка 1мм снизу от точки, 04-pnt-diam-1mm-below.bmp, 04-pnt-diam-1mm-below.bmp)]^C^C_04-pnt-diam-1mm-below
+[_Button(Точка 1мм справа от точки, 04-pnt-diam-1mm-right.bmp, 04-pnt-diam-1mm-right.bmp)]^C^C_04-pnt-diam-1mm-right
+[_Button(Точка 1мм слева от точки, 04-pnt-diam-1mm-left.bmp, 04-pnt-diam-1mm-left.bmp)]^C^C_04-pnt-diam-1mm-left
+[_Button(Точка 2мм, 04-pnt-diam-2mm.bmp, 04-pnt-diam-2mm.bmp)]^C^C_04-pnt-diam-2mm
+
+
+////--------------------------------------------------------------------------------------
+**TB_04_сэп_линии
+[_Toolbar(04 сэп линии, _Floating, _Hide, 742, 140, 1)]
+
+[_Button(Линии фаз, 04-line-of-phase.bmp, 04-line-of-phase.bmp )]^C^C_04-line-of-phase
+[_Button(Линии от середины, 04-line-frm-mdl.bmp, 04-line-frm-mdl.bmp )]^C^C_04-line-frm-mdl
+[_Button(Конец проводки, 04-conducting-end.bmp, 04-conducting-end.bmp )]^C^C_04-conducting-end
+
+
+////--------------------------------------------------------------------------------------
+**TB_04_сэп_отрезки
+[_Toolbar(04 сэп отрезки, _Floating, _Hide, 742, 150, 1)]
+
+[_Button(Отрезок с точкой, 04-len-segment-w-dot.bmp, 04-len-segment-w-dot.bmp )]^C^C_04-len-segment-w-dot
+[_Button(Отрезок 5 мм, 04-len-segment-5-mm.bmp, 04-len-segment-5-mm.bmp )]^C^C_04-len-segment-5-mm
+
+
+////--------------------------------------------------------------------------------------
+**TB_04_сэп_уго_01
+[_Toolbar(04 сэп уго 01, _Floating, _Hide, 742, 160, 1)]
+
+[_Button(Контакт НО, 04-cntct-closing.bmp, 04-cntct-closing.bmp )]^C^C_04-cntct-closing
+[_Button(Контакт НЗ, 04-cntct-disconnecting.bmp, 04-cntct-disconnecting.bmp )]^C^C_04-cntct-disconnecting
+[_Button(Контакт ПЕРЕКЛ, 04-cntct-switching.bmp, 04-cntct-switching.bmp )]^C^C_04-cntct-switching
+[_Button(Конечный выкл НО, 04-limit-switch-closing.bmp, 04-limit-switch-closing.bmp )]^C^C_04-limit-switch-closing
+[_Button(Конечный выкл НЗ, 04-limit-switch-disconnecting.bmp, 04-limit-switch-disconnecting.bmp )]^C^C_04-limit-switch-disconnecting
+[_Button(Конечный выкл ПЕРЕКЛ, 04-limit-switch-switching.bmp, 04-limit-switch-switching.bmp )]^C^C_04-limit-switch-switching
+[_Button(Моментный выкл НО, 04-moment-switch-closing.bmp, 04-moment-switch-closing.bmp )]^C^C_04-moment-switch-closing
+[_Button(Моментный выкл НЗ, 04-moment-switch-disconnecting.bmp, 04-moment-switch-disconnecting.bmp )]^C^C_04-moment-switch-disconnecting
+
+
+////--------------------------------------------------------------------------------------
+**TB_04_сэп_уго_02
+[_Toolbar(04 сэп уго 02, _Floating, _Hide, 742, 170, 1)]
+
+[_Button(Выкл авт 1 полюс,04-auto-swtch-1-p-v.bmp, 04-auto-swtch-1-p-v.bmp )]^C^C_04-auto-swtch-1-p-v
+[_Button(Выкл авт 2 полюс,04-auto-swtch-2-p-v.bmp, 04-auto-swtch-2-p-v.bmp )]^C^C_04-auto-swtch-2-p-v
+[_Button(Выкл авт 3 полюс,04-auto-swtch-3-p-v.bmp, 04-auto-swtch-3-p-v.bmp )]^C^C_04-auto-swtch-3-p-v 
+[_Button(Кнопка НО, 04-button-closing.bmp, 04-button-closing.bmp )]^C^C_04-button-closing
+[_Button(Кнопка НЗ, 04-button-disconnecting.bmp, 04-button-disconnecting.bmp )]^C^C_04-button-disconnecting
+[_Button(Переключатель 2 напр, 04-switch-2-direction.bmp, 04-switch-2-direction.bmp )]^C^C_04-switch-2-direction
+[_Button(Переключатель 3 напр, 04-switch-3-direction.bmp, 04-switch-3-direction.bmp )]^C^C_04-switch-3-direction
+
+
+////--------------------------------------------------------------------------------------
+**TB_04_сэп_уго_03
+[_Toolbar(04 сэп уго 03, _Floating, _Hide, 742, 180, 1)]
+
+[_Button(Лампа накаливания, 04-lamp-heating.bmp, 04-lamp-heating.bmp )]^C^C_04-lamp-heating
+[_Button(Диод, 04-diode.bmp, 04-diode.bmp )]^C^C_04-diode
+[_Button(Светодиод, 04-led.bmp, 04-led.bmp )]^C^C_04-led
+[_Button(Реле, 04-relay.bmp, 04-relay.bmp )]^C^C_04-relay
+[_Button(Резистор, 04-resistance.bmp, 04-resistance.bmp )]^C^C_04-resistance
+[_Button(Соединение контактное разъемное, 04-cntct-demount.bmp, 04-cntct-demount.bmp )]^C^C_04-cntct-demount
+[_Button(Обозначения контактов, 04-designations-contacts.bmp, 04-designations-contacts.bmp )]^C^C_04-designations-contacts
+[_Button(Звонок электрический, 04-electric-bell.bmp, 04-electric-bell.bmp )]^C^C_04-electric-bell
+
+
+////--------------------------------------------------------------------------------------
+**TB_05_ссвп
+[_Toolbar(05 ссвп, _Floating, _Show, 500, 10, 1)]
+
+[_Button(Кабель ССВП, 05-cable-01-general.bmp, 05-cable-01-general.bmp )]^C^C_05-cable-01-general
+[_Button(Удлинение до точки, 05-pnt-to-lvl.bmp, 05-pnt-to-lvl.bmp)]^C^C_05-pnt-to-lvl
+[_Button(Клеммный ряд 1 ярус, 05-plg-1-lvl-nbrs.bmp, 05-plg-1-lvl-nbrs.bmp)]^C^C_05-plg-1-lvl-nbrs
+[_Button(Знак кабеля, 05-sgn-cable-20-vert.bmp, 05-sgn-cable-20-vert.bmp )]^C^C_05-sgn-cable
+[_Button(Шапка для прибора, 05-cap-table-scec.bmp, 05-cap-table-scec.bmp)]^C^C_05-cap-table-scec
+[_Button(Контур КС, 05-cntr-junction-box.bmp, 05-cntr-junction-box.bmp )]^C^C_05-cntr-junction-box
+
+[_Flyout(05 ссвп закладные конструкции, 05-embd-lug-straight.bmp, 05-embd-lug-straight.bmp, _OtherIcon, TB_05_ссвп_закладные_конструкции)]
+[_Flyout(05 ссвп подкл импульсн проводок, 05-pls-pipe-pulse-sign-w-number.bmp, 05-pls-pipe-pulse-sign-w-number.bmp, _OtherIcon, TB_05_ссвп_подкл_импульсн_проводок)]
+[_Flyout(05 ссвп подкл кабельн проводок, 05-cbl-connecting-to-junc-box.bmp, 05-cbl-connecting-to-junc-box.bmp, _OtherIcon, TB_05_ссвп_подкл_кабельн_проводок)]
+[_Flyout(05 ссвп заземление, 05-sgn-grndng-01.bmp, 05-sgn-grndng-01.bmp, _OtherIcon, TB_05_ссвп_заземление)]
+
+
+////--------------------------------------------------------------------------------------
+**TB_05_ссвп_закладные_конструкции
+[_Toolbar(05 ссвп закладные конструкции, _Floating, _Show, 500, 15, 1)]
+[_Button(Бобышка прямая, 05-embd-lug-straight.bmp, 05-embd-lug-straight.bmp)]^C^C_05-embd-lug-straight
+[_Button(Бобышка прямая с гильзой, 05-embd-lug-straight-w-sleeve.bmp, 05-embd-lug-straight-w-sleeve.bmp)]^C^C_05-embd-lug-straight-w-sleeve
+[_Button(Бобышка угловая с гильзой, 05-embd-lug-angle-w-sleeve.bmp, 05-embd-lug-angle-w-sleeve.bmp)]^C^C_05-embd-lug-angle-w-sleeve
+[_Button(Гильза защитная, 05-embd-protective-sleeve.bmp, 05-embd-protective-sleeve.bmp)]^C^C_05-embd-protective-sleeve
+[_Button(Закладная конструкция общ, 05-embd-base-construction.bmp, 05-embd-base-construction.bmp)]^C^C_05-embd-base-construction
+
+
+////--------------------------------------------------------------------------------------
+**TB_05_ссвп_подкл_импульсн_проводок
+[_Toolbar(05 ссвп подкл импульсн проводок, _Floating, _Show, 500, 20, 1)]
+
+[_Button(Номер имп. проводки, 05-pls-pipe-pulse-sign-w-number.bmp, 05-pls-pipe-pulse-sign-w-number.bmp)]^C^C_05-pls-pipe-pulse-sign-w-number
+[_Button(Соединение ввертное НСВ, 05-pls-connection-carving-in.bmp, 05-pls-connection-carving-in.bmp)]^C^C_05-pls-connection-carving-in
+[_Button(Соединение навертное НСН, 05-pls-connection-carving-out.bmp, 05-pls-connection-carving-out.bmp)]^C^C_05-pls-connection-carving-out
+[_Button(Соединение тройниковое НСТ, 05-pls-connection-tee.bmp, 05-pls-connection-tee.bmp)]^C^C_05-pls-connection-tee
+[_Button(Блок 1-вентильный с продувкой, 05-pls-valve-block-1-valve-with-purge.bmp, 05-pls-valve-block-1-valve-with-purge.bmp)]^C^C_05-pls-valve-block-1-valve-with-purge
+[_Button(Сосуд конденсационный, 05-pls-vessel-condensat.bmp, 05-pls-vessel-condensat.bmp)]^C^C_05-pls-vessel-condensat
+
+
+////--------------------------------------------------------------------------------------
+**TB_05_ссвп_подкл_кабельн_проводок
+[_Toolbar(05 ссвп подкл кабельн проводок, _Floating, _Hide, 500, 25, 1)]
+
+[_Button(Экран и сальник в коробке, 05-cbl-connecting-to-junc-box.bmp, 05-cbl-connecting-to-junc-box.bmp )]^C^C_05-cbl-connecting-to-junc-box
+[_Button(Жилы к прибору, 05-cbl-connecting-to-device.bmp, 05-cbl-connecting-to-device.bmp )]^C^C_05-cbl-connecting-to-device
+[_Button(Линия 0.6 мм, 05-cbl-lin-06mm.bmp, 05-cbl-lin-06mm.bmp )]^C^C_05-cbl-lin-06mm
+[_Button(Засечка, 05-cbl-ntch.bmp, 05-cbl-ntch.bmp )]^C^C_05-cbl-ntch
+[_Button(Сальник, 05-cbl-eppln.bmp, 05-cbl-eppln.bmp )]^C^C_05-cbl-eppln
+[_Button(Экран кабеля коробка, 05-cbl-shld-cble-box.bmp, 05-cbl-shld-cble-box.bmp)]^C^C_05-cbl-shld-cble-box
+//[_Button(Экран кабеля шкаф, 05-cbl-shld-cble-case.bmp, 05-cbl-shld-cble-case.bmp)]^C^C_05-cbl-shld-cble-case
+[_Button(Экран проводников, 05-cbl-shld-cble-02.bmp, 05-cbl-shld-cble-02.bmp )]^C^C_05-cbl-shld-cble-02
+
+
+////--------------------------------------------------------------------------------------
+**TB_05_ссвп_заземление
+[_Toolbar(05 ссвп заземление, _Floating, _Hide, 500, 30, 1)]
+
+[_Button(Знак заземления 01, 05-sgn-grndng-01.bmp, 05-sgn-grndng-01.bmp)]^C^C_05-sgn-grndng-01
+[_Button(Знак заземления 02, 05-sgn-grndng-02.bmp, 05-sgn-grndng-02.bmp)]^C^C_05-sgn-grndng-02
+
+////--------------------------------------------------------------------------------------
+**TB_07_спвп
+[_Toolbar(07 спвп, _Floating, _Show, 520, 10, 1)]
+
+[_Button(Экран кабеля 1 с MTEXT, 07-shld-cble-case-1-mtext.bmp, 07-shld-cble-case-1-mtext.bmp )]^C^C_07-shld-cble-case-1-mtext
+[_Button(Экран кабеля 2 соедин, 07-shld-cble-case-2-join.bmp, 07-shld-cble-case-2-join.bmp )]^C^C_07-shld-cble-case-2-join
+
+
+////--------------------------------------------------------------------------------------
+**TB_08_чро
+[_Toolbar(08 чро, _Floating, _Show,500,10,1)]
+
+[_Flyout(08 чро оборудование, 08-gg-dae.bmp, 08-gg-dae.bmp, _OtherIcon, **TB_08_чро_оборудование)]
+[_Button(ЧРО Поз первая, 08-position-1-dae-all.bmp, 08-position-1-dae-all.bmp )]^C^C_08-position-1-dae-all
+[_Button(ЧРО Поз следующая, 08-position-3-dae-next.bmp, 08-position-3-dae-next.bmp )]^C^C_08-position-3-dae-next
+[_Button(Линия проводки видимая, 08-wiring-line-is-visible.bmp, 08-wiring-line-is-visible.bmp )]^C^C_08-wiring-line-is-visible
+[_Button(Линия проводки скрытая, 08-wiring-line-is-hidden.bmp, 08-wiring-line-is-hidden.bmp )]^C^C_08-wiring-line-is-hidden
+[_Flyout(08 чро проводки вертикальные, 08-cble-up.bmp, 08-cble-up.bmp,  _OtherIcon, TB_08_чро_проводки_вертикальные)]
+[_Flyout(08 чро прокладка проводки, 08-cndctngs-bx.bmp, 08-cndctngs-bx.bmp,  _OtherIcon, TB_08_чро_прокладка_проводки)]
+[_Flyout(08 чро план, 08-bldng-axs.bmp, 08-bldng-axs.bmp,  _OtherIcon, TB_08_чро_план)]
+
+
+////--------------------------------------------------------------------------------------
+**TB_08_чро_оборудование
+[_Toolbar(08 чро оборудование, _Floating, _Hide,732,131,1)]
+
+[_Button(Датчик, 08-gg-dae.bmp, 08-gg-dae.bmp )]^C^C_08-gg-dae
+[_Button(Шкаф, 08-board-dae.bmp, 08-board-dae.bmp )]^C^C_08-board-dae
+[_Button(Коробка соединительная, 08-box-connecting.bmp, 08-box-connecting.bmp )]^C^C_08-box-connecting
+
+
+////--------------------------------------------------------------------------------------
+**TB_08_чро_проводки_вертикальные
+[_Toolbar(08 чро проводки вертикальные, _Floating, _Hide,732,121,1)]
+
+[_Button(Проводка уходит на более высокую отметку, 08-wiring-up.bmp, 08-wiring-up.bmp)]^C^C_08-wiring-up
+[_Button(Проводка приходит с более низкой отметки, 08-wiring-from-bottom-to-top.bmp, 08-wiring-from-bottom-to-top.bmp )]^C^C_08-wiring-from-bottom-to-top
+[_Button(Проводка уходит на более низкую отметку, 08-wiring-down.bmp, 08-wiring-down.bmp )]^C^C_08-wiring-down
+[_Button(Проводка приходит с более высокой отметки, 08-wiring-from-top-to-bottom.bmp, 08-wiring-from-top-to-bottom.bmp )]^C^C_08-wiring-from-top-to-bottom
+
+
+////--------------------------------------------------------------------------------------
+**TB_08_чро_прокладка_проводки
+[_Toolbar(08 чро прокладка проводки, _Floating, _Hide,732,121,1)]
+
+[_Button(Проводки в коробе, 08-wiring-in-the-box.bmp, 08-wiring-in-the-box.bmp)]^C^C_08-wiring-in-the-box
+[_Button(Проводки в лотке, 08-wiring-in-the-tray.bmp, 08-wiring-in-the-tray.bmp )]^C^C_08-wiring-in-the-tray
+[_Button(Проводки в трубе, 08-wiring-in-the-pipe.bmp, 08-wiring-in-the-pipe.bmp )]^C^C_08-wiring-in-the-pipe
+[_Button(Проводки через стену, 08-wiring-through-the-wall.bmp, 08-wiring-through-the-wall.bmp )]^C^C_08-wiring-through-the-wall
+
+
+////--------------------------------------------------------------------------------------
+**TB_08_чро_план
+[_Toolbar(08 чро план, _Floating, _Hide,732,121,1)]
+
+[_Button(Ось здания, 08-bldng-axs.bmp, 08-bldng-axs.bmp )]^C^C_08-building-axis
+[_Button(Уровень 0.000, 08-level-zero.bmp, 08-level-zero.bmp )]^C^C_08-level-zero
+[_Button(Произвольный уровень, 08-level-any.bmp, 08-level-any.bmp )]^C^C_08-level-any
+[_Button(Отметка высоты, 08-mark-hight.bmp, 08-mark-hight.bmp )]^C^C_08-mark-hight
+[_Button(Решетка, 08-grid.bmp, 08-grid.bmp )]^C^C_08-grid
+[_Button(Направление движения, 08-ldr-drctn.bmp, 08-ldr-drctn.bmp )]^C^C_08-ldr-drctn
+
+
+////---------------------------------------------------------------------------------------//////////////////////////////////////////////////////////////////////////////////////
+**TB_10_всп_постр_1
+[_Toolbar(10 всп постр 1, _Floating, _Show,500,10,1)]
+
+[_Button(Форматы, 01-formats-spds-01-general.bmp, 01-formats-spds-01-general.bmp )]^C^C_01-formats-spds-01-general
+[_Button(Вернуть привязки, 10-restore-osnap.bmp, 10-restore-osnap.bmp )]^C^C_10-restore-osnap
+[_Flyout(10 пометки, 10-marks-cloud.bmp, 10-marks-cloud.bmp,  _OtherIcon, TB_10_пометки)]
+[_Button(Пересечение линий, 10-crossing-of-line.bmp, 10-crossing-of-line.bmp )]^C^C_10-crossing-of-line
+[_Flyout(10 квадрат, 10-sqr-1.bmp, 10-sqr-1.bmp,  _OtherIcon, TB_10_квадрат)]
+[_Flyout(10 контур, 10-cntr-dist-inpt-1.bmp, 10-cntr-dist-inpt-1.bmp,  _OtherIcon, TB_10_контур)]
+[_Flyout(10 круг, 10-circle-r-1.bmp, 10-circle-r-1.bmp,  _OtherIcon, TB_10_круг)]
+[_Flyout(10 скобки, 10-brcs-v-mtxt-h.bmp, 10-brcs-v-mtxt-h.bmp,  _OtherIcon, TB_10_скобки)]
+[_Flyout(10 линия разрыва, 10-rupture-line-s.bmp, 10-rupture-line-s.bmp,  _OtherIcon, TB_10_линия_разрыва)]
+
+
+////--------------------------------------------------------------------------------------
+**TB_10_пометки
+[_Toolbar(10 пометки, _Floating, _Hide, 742, 131, 1)]
+
+[_Button(Пометки прямоуг, 10-marks-cloud.bmp, 10-marks-cloud.bmp )]^C^C_10-marks-cloud
+[_Button(Пометки линия, 10-marks-line.bmp, 10-marks-line.bmp )]^C^C_10-marks-line
+[_Button(Пометки текст, 10-marks-text.bmp, 10-marks-text.bmp )]^C^C_10-marks-text
+
+
+////--------------------------------------------------------------------------------------
+**TB_10_квадрат
+[_Toolbar(10 всп постр квадрат, _Floating, _Hide, 742, 121, 1)]
+
+[_Button(Квадрат 1 мм, 10-sqr-1.bmp, 10-sqr-1.bmp )]^C^C_10-square-1
+[_Button(Квадрат 2 мм, 10-sqr-2.bmp, 10-sqr-2.bmp )]^C^C_10-square-2
+[_Button(Квадрат 3 мм, 10-sqr-3.bmp, 10-sqr-3.bmp )]^C^C_10-square-3
+[_Button(Квадрат 4 мм, 10-sqr-4.bmp, 10-sqr-4.bmp )]^C^C_10-square-4
+[_Button(Квадрат 5 мм, 10-sqr-5.bmp, 10-sqr-5.bmp )]^C^C_10-square-5
+[_Button(Квадрат 5 мм, 10-sqr-5-01.bmp, 10-sqr-5-01.bmp )]^C^C_10-square-5-01
+[_Button(Квадрат 6 мм, 10-sqr-6.bmp, 10-sqr-6.bmp )]^C^C_10-square-6
+[_Button(Квадрат 8 мм, 10-sqr-8.bmp, 10-sqr-8.bmp )]^C^C_10-square-8
+[_Button(Квадрат 10 мм, 10-sqr-10.bmp, 10-sqr-10.bmp )]^C^C_10-square-10
+[_Button(Квадрат 12 мм, 10-sqr-12.bmp, 10-sqr-12.bmp )]^C^C_10-square-12
+[_Button(Квадрат 15 мм, 10-sqr-15.bmp, 10-sqr-15.bmp )]^C^C_10-square-15
+[_Button(Квадрат 18 мм, 10-sqr-18.bmp, 10-sqr-18.bmp )]^C^C_10-square-18
+[_Button(Квадрат 20 мм, 10-sqr-20.bmp, 10-sqr-20.bmp )]^C^C_10-square-20
+[_Button(Квадрат 25 мм, 10-sqr-25.bmp, 10-sqr-25.bmp )]^C^C_10-square-25
+[_Button(Квадрат 30 мм, 10-sqr-30.bmp, 10-sqr-30.bmp )]^C^C_10-square-30
+
+
+////--------------------------------------------------------------------------------------
+**TB_10_контур
+[_Toolbar(10 всп постр контур, _Floating, _Hide, 742, 121, 1)]
+
+[_Button(Контур 1, 10-cntr-dist-inpt-1.bmp, 10-cntr-dist-inpt-1.bmp )]^C^C_10-cntr-dist-inpt-1
+[_Button(Контур 2, 10-cntr-dist-inpt-2.bmp, 10-cntr-dist-inpt-2.bmp )]^C^C_10-cntr-dist-inpt-2
+[_Button(Контур 3, 10-cntr-dist-inpt-3.bmp, 10-cntr-dist-inpt-3.bmp )]^C^C_10-cntr-dist-inpt-3
+
+
+////--------------------------------------------------------------------------------------
+**TB_10_круг
+[_Toolbar(10 всп постр круг, _Floating, _Hide, 742, 121, 1)]
+
+[_Button(Круг 1 мм, 10-circle-r-1.bmp, 10-circle-r-1.bmp )]^C^C_10-circle-r-1
+[_Button(Круг 2 мм, 10-circle-r-2.bmp, 10-circle-r-2.bmp )]^C^C_10-circle-r-2
+[_Button(Круг 3 мм, 10-circle-r-3.bmp, 10-circle-r-3.bmp )]^C^C_10-circle-r-3
+[_Button(Круг 5 мм, 10-circle-r-5.bmp, 10-circle-r-5.bmp )]^C^C_10-circle-r-5
+[_Button(Круг 10 мм, 10-circle-r-10.bmp, 10-circle-r-10.bmp )]^C^C_10-circle-r-10
+
+
+////--------------------------------------------------------------------------------------
+**TB_10_скобки
+[_Toolbar(10 всп постр скобки, _Floating, _Hide,752,121,1)]
+
+[_Button(Скобки вертикально MTEXT горизонтально, 10-brcs-v-mtxt-h.bmp, 10-brcs-v-mtxt-h.bmp )]^C^C_10-brcs-v-mtxt-h
+[_Button(Скобки вертикально MTEXT вертикально,10-brcs-v-mtxt-v.bmp, 10-brcs-v-mtxt-v.bmp )]^C^C_10-brcs-v-mtxt-v
+[_Button(Скобки горизонтально MTEXT горизонтально,10-brcs-h-mtxt-h.bmp, 10-brcs-h-mtxt-h.bmp )]^C^C_10-brcs-h-mtxt-h 
+
+
+////--------------------------------------------------------------------------------------
+**TB_10_линия_разрыва
+[_Toolbar(10 всп постр линия разрыва, _Floating, _Hide,752,121,1)]
+
+[_Button(Линия разрыва прост, 10-rupture-line-s.bmp, 10-rupture-line-s.bmp )]^C^C_10-rupture-line-s
+[_Button(Линия разрыва двойн, 10-rupture-line-d.bmp, 10-rupture-line-d.bmp )]^C^C_10-rupture-line-d
+[_Button(Линия разрыва одинарн, 10-rupture-line-s1.bmp, 10-rupture-line-s1.bmp )]^C^C_10-rupture-line-s1
+[_Button(Линия разрыва одинарн кривая, 10-rupture-line-curve.bmp, 10-rupture-line-curve.bmp )]^C^C_10-rupture-line-curve
+
+
+////--------------------------------------------------------------------------------------
+**TB_09_овш
+[_Toolbar(09 общ вид шкафа, _Floating, _Show, 500, 10, 1)]
+
+[_Button(Шкаф Общий Вид, 09-cgv-tools-01.bmp, 09-cgv-tools-01.bmp )]^C^C_09-cgv-tools-01
+[_Button(ОВШ Поз первая, 09-cgv-itm-dsgn-01-frst.bmp, 09-cgv-itm-dsgn-01-frst.bmp )]^C^C_09-cgv-itm-dsgn-01-frst
+[_Button(ОВШ Поз следующая, 09-cgv-itm-dsgn-02-btm.bmp, 09-cgv-itm-dsgn-02-btm.bmp )]^C^C_09-cgv-itm-dsgn-02-btm
+[_Button(DIN-рейка начало, 09-cgv-din-rail-end.bmp, 09-cgv-din-rail-end.bmp )]^C^C_09-cgv-din-rail-end
+[_Button(Высота установки, 09-cgv-arrow.bmp, 09-cgv-arrow.bmp )]^C^C_09-cgv-arrow
+[_Button(Нумерация по порядку, 09-cgv-numbering-items-01-seq.bmp, 09-cgv-numbering-items-01-seq.bmp )]^C^C_09-cgv-numbering-items-01-seq
+[_Button(Нумерация +, 09-cgv-numbering-items-02-delta-incr.bmp, 09-cgv-numbering-items-02-delta-incr.bmp )]^C^C_09-cgv-numbering-items-02-delta-incr
+[_Button(Нумерация -, 09-cgv-numbering-items-02-delta-decr.bmp, 09-cgv-numbering-items-02-delta-decr.bmp )]^C^C_09-cgv-numbering-items-02-delta-decr
+[_Button(Нумерация вниз, 09-cgv-numbering-items-03-down.bmp, 09-cgv-numbering-items-03-down.bmp )]^C^C_09-cgv-numbering-items-03-down
+
+
+////--------------------------------------------------------------------------------------
+**TB_700_уго_технология
+[_Toolbar(700 уго технология,  _Floating, _Hide, 742, 121, 1)]
+
+[_Flyout(701 оборудование, 699-gost-21-206-reducers.bmp, 699-gost-21-206-reducers.bmp, _OtherIcon, TB_701_уго_оборудование)]
+[_Flyout(703 трубопроводы, 699-stream-direction-gost-21-205-gas.bmp, 699-stream-direction-gost-21-205-gas.bmp, _OtherIcon, TB_703_уго_трубопроводы)]
+[_Flyout(705 нагнетатели, 699-gost-2-782-pump-general-img.bmp, 699-gost-2-782-pump-general-img.bmp, _OtherIcon, TB_705_уго_нагнетатели)]
+[_Flyout(707 зра общ, 699-gost-21-205-gate-valve.bmp, 699-gost-21-205-gate-valve.bmp, _OtherIcon, TB_707_уго_зра_общ)]
+[_Flyout(709 зра газ, 699-gost-21-609-valve-safety-locking.bmp, 699-gost-21-609-valve-safety-locking.bmp, _OtherIcon, TB_709_уго_зра_газ)]
+
+
+////--------------------------------------------------------------------------------------
+**TB_701_уго_оборудование
+[_Toolbar(701 оборудование, _Floating, _Hide,500,10,1)]
+
+[_Button(Фильтр, 699-gost-21-205-filter.bmp, 699-gost-21-205-filter.bmp )]^C^C_699-gost-21-205-filter
+
+
+////--------------------------------------------------------------------------------------
+**TB_703_уго_трубопроводы
+[_Toolbar(703 трубопроводы, _Floating, _Hide,500,10,1)]
+
+[_Button(Напр потока воздуха, 699-stream-direction-gost-21-205-gas.bmp, 699-stream-direction-gost-21-205-gas.bmp )]^C^C_699-stream-direction-gost-21-205-gas
+[_Button(Напр потока жидкость, 699-stream-direction-gost-21-205-liquid.bmp, 699-stream-direction-gost-21-205-liquid.bmp )]^C^C_699-stream-direction-gost-21-205-liquid
+[_Button(Напр потока жидк и пар, 699-stream-direction-var-01-liq-gas.bmp, 699-stream-direction-var-01-liq-gas.bmp )]^C^C_699-stream-direction-var-01-liq-gas
+[_Button(Соединение фланцевое, 699-gost-21-206-connection-flange.bmp, 699-gost-21-206-connection-flange.bmp )]^C^C_699-gost-21-206-connection-flange
+[_Button(Соединение муфтовое резьбовое, 699-gost-21-206-connection-muftovy-carving.bmp, 699-gost-21-206-connection-muftovy-carving.bmp )]^C^C_699-gost-21-206-connection-muftovy-carving
+[_Button(Переход, 699-gost-21-206-reducers.bmp, 699-gost-21-206-reducers.bmp )]^C^C_699-gost-21-206-reducers
+
+
+////--------------------------------------------------------------------------------------
+**TB_705_уго_нагнетатели
+[_Toolbar(705 нагнетатели, _Floating, _Hide, 500, 10, 1)]
+
+[_Button(Насос нерег не реверс, 699-gost-2-782-pump-not-reg-not-revers.bmp, 699-gost-2-782-pump-not-reg-not-revers.bmp )]^C^C_699-gost-2-782-pump-not-reg-not-revers
+[_Button(Насос дозатор, 699-gost-2-782-pump-dispenser.bmp, 699-gost-2-782-pump-dispenser.bmp )]^C^C_699-gost-2-782-pump-dispenser
+[_Button(Компрессор, 699-gost-2-782-compressor.bmp, 699-gost-2-782-compressor.bmp )]^C^C_699-gost-2-782-compressor
+
+
+////--------------------------------------------------------------------------------------
+**TB_707_уго_зра_общ
+[_Toolbar(707 зра общ, _Floating, _Hide,500,10,1)]
+
+[_Button(Задвижка, 699-gost-21-205-gate-valve.bmp, 699-gost-21-205-gate-valve.bmp )]^C^C_699-gost-21-205-gate-valve
+[_Button(Затвор поворотный, 699-gost-21-205-lock-rotary.bmp, 699-gost-21-205-lock-rotary.bmp )]^C^C_699-gost-21-205-lock-rotary
+[_Button(Клапан запорный проходной, 699-gost-21-205-valve-gate-locking-through-passage.bmp, 699-gost-21-205-valve-gate-locking-through-passage.bmp )]^C^C_699-gost-21-205-valve-gate-locking-through-passage
+[_Button(Клапан запорный угловой, 699-gost-21-205-valve-gate-locking-through-angular.bmp, 699-gost-21-205-valve-gate-locking-through-angular.bmp )]^C^C_699-gost-21-205-valve-gate-locking-through-angular
+[_Button(Клапан трехходовой, 699-gost-21-205-valve-gate-three-running.bmp, 699-gost-21-205-valve-gate-three-running.bmp )]^C^C_699-gost-21-205-valve-gate-three-running
+[_Button(Клапан регулирующий проходной, 699-gost-21-205-valve-regulating.bmp, 699-gost-21-205-valve-regulating.bmp )]^C^C_699-gost-21-205-valve-regulating
+[_Button(Клапан обратный проходной, 699-gost-21-205-valve-return-checkpoint.bmp, 699-gost-21-205-valve-return-checkpoint.bmp )]^C^C_699-gost-21-205-valve-return-checkpoint
+[_Button(Клапан предохранительный проходной, 699-gost-21-205-valve-safety-checkpoint.bmp, 699-gost-21-205-valve-safety-checkpoint.bmp )]^C^C_699-gost-21-205-valve-safety-checkpoint
+[_Button(Клапан дроссельный, 699-gost-21-205-valve-throttle.bmp, 699-gost-21-205-valve-throttle.bmp )]^C^C_699-gost-21-205-valve-throttle
+[_Button(Клапан редукционный, 699-gost-21-205-valve-reducing.bmp, 699-gost-21-205-valve-reducing.bmp )]^C^C_699-gost-21-205-valve-reducing
+[_Button(Кран проходной, 699-gost-21-205-crane-checkpoint.bmp, 699-gost-21-205-crane-checkpoint.bmp )]^C^C_699-gost-21-205-crane-checkpoint
+[_Button(Кран трехходовой, 699-gost-21-205-crane-three-running.bmp, 699-gost-21-205-crane-three-running.bmp )]^C^C_699-gost-21-205-crane-three-running
+
+
+////--------------------------------------------------------------------------------------
+**TB_709_уго_зра_газ
+[_Toolbar(709 зра газ, _Floating, _Hide,500,10,1)]
+
+[_Button(Предохранительный запорный клапан, 699-gost-21-609-valve-safety-locking.bmp, 699-gost-21-609-valve-safety-locking.bmp )]^C^C_699-gost-21-609-valve-safety-locking
+[_Button(Регулятор давления, 699-gost-21-609-pressure-regulator.bmp, 699-gost-21-609-pressure-regulator.bmp )]^C^C_699-gost-21-609-pressure-regulator
+
+
+////---------------------------------------------------------------------------------------//////////////////////////////////////////////////////////////////////////////////////
+**TB_900_текст
+[_Toolbar(900 текст, _Floating, _Show, 742, 210, 1)]
+
+[_Button(MtmdEdit, 901-auto-txt-MtmdEdit.bmp, 901-auto-txt-MtmdEdit.bmp)]^C^C_TE
+[_Flyout(901 слияние текста, 901-ins-bfr-exst-txt.bmp, 901-ins-bfr-exst-txt.bmp, _OtherIcon, TB_901_слияние_текста)]
+[_Flyout(902 TEXT около точки, 901-txt-pnt-01-hgt-2-5.bmp, 901-txt-pnt-01-hgt-2-5.bmp, _OtherIcon, TB_902_text_около_точки)]
+[_Flyout(903 TEXT в ячейке, 901-txt-rctngl.bmp, 901-txt-rctngl.bmp,  _OtherIcon, TB_903_текст_в_ячейке)]
+
+[_Button(Несколько TEXT в один TEXT, 901-txt-multiple-text-into-one-text.bmp, 901-txt-multiple-text-into-one-text.bmp )]^C^C_901-txt-multiple-text-into-one-text
+[_Button(Приведение TEXT к одному содержимому, 901-plural-rplc-txt.bmp, 901-plural-rplc-txt.bmp )]^C^C_901-plural-rplc-txt
+[_Button(TEXT жилы, 901-txt-wire.bmp, 901-txt-wire.bmp )]^C^C_901-txt-wire
+[_Button(Текст ЗАМ, 901-txt-destr.bmp, 901-txt-destr.bmp )]^C^C_901-txt-destr 
+
+
+////--------------------------------------------------------------------------------------
+**TB_901_слияние_текста
+[_Toolbar(901 слияние текста, _Floating, _Hide, 742, 121, 1)]
+
+[_Button(Вставка текста до текста, 901-ins-before-exist-txt.bmp, 901-ins-bfr-exst-txt.bmp )]^C^C_901-ins-before-exist-txt
+[_Button(Вставка текста после текста, 901-ins-after-exist-txt.bmp, 901-ins-after-exist-txt.bmp )]^C^C_901-ins-after-exist-txt
+[_Button(TEXT в MTEXT, 901-stick-together-txt.bmp, 901-stick-together-txt.bmp )]^C^C_901-stick-together-txt
+
+
+////--------------------------------------------------------------------------------------
+**TB_902_text_около_точки
+[_Toolbar(902 txt около точки, _Floating, _Hide, 742, 121, 1)]
+
+[_Button(TEXT около точки ГОРИЗ, 901-txt-pnt-01-hgt-2-5.bmp, 901-txt-pnt-01-hgt-2-5.bmp )]^C^C_901-txt-pnt-01-hgt-2-5
+[_Button(TEXT около точки ВЕРТ, 901-txt-pnt-02-hgt-2-5.bmp, 901-txt-pnt-02-hgt-2-5.bmp )]^C^C_901-txt-pnt-02-hgt-2-5
+[_Button(MTEXT около точки вар 1, 901-mtxt-pnt.bmp, 901-mtxt-pnt.bmp )]^C^C_901-mtxt-pnt-var1
+[_Button(MTEXT около точки вар 2, 901-mtxt-h-pnt.bmp, 901-mtxt-h-pnt.bmp )]^C^C_901-mtxt-pnt-var2
+[_Button(TEXT в начало ПЭ, 901-ins-txt-le-l.bmp, 901-ins-txt-le-l.bmp )]^C^C_901-ins-txt-le-l
+[_Button(TEXT в середину ПЭ, 901-ins-txt-le-m.bmp, 901-ins-txt-le-m.bmp )]^C^C_901-ins-txt-le-m
+
+
+////--------------------------------------------------------------------------------------
+**TB_903_текст_в_ячейке
+[_Toolbar(903 текст в ячейке, _Floating, _Hide, 742, 121, 1)]
+
+[_Button(TEXT в прямоугольнике, 901-txt-rctngl.bmp, 901-txt-rctngl.bmp )]^C^C_901-txt-rctngl
+[_Button(MTEXT в прямоугольнике, 901-mtxt-rctngl.bmp, 901-mtxt-rctngl.bmp )]^C^C_901-mtxt-rctngl
+[_Button(Выравнивание MTEXT, 901-algn-txt-rctngl.bmp, 901-algn-txt-rctngl.bmp )]^C^C_901-algn-txt-rctngl
+
+////--------------------------------------------------------------------------------------

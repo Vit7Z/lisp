@@ -1,0 +1,8 @@
+menu Число жил х
+menu Диаметр
+menu жилы, мм
+menu Наружний
+menu диаметр,
+menu мм
+КИПвЭВнг(А)-LS\05-cable-rs-485-kipvev-ng-a-ls.txt\2
+КИПвЭП\05-cable-rs-485-kipvep.txt\2

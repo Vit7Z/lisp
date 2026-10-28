@@ -1,0 +1,20 @@
+menu Размеры 
+menu ВхШ, мм
+menu --77
+menu Для 
+menu шкафов
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu Монт.
+menu область
+menu ВхШ, мм
+menu --77
+menu --77
+menu --77
+dscr *****
+R5PCE1840\1800х400\DAE/CQE\12\1683х286
+R5PCE1860\1800х600\DAE/CQE\18\1683х486
+R5PCE2060\2000х600\DAE/CQE\19,5\1883х486
+R5PCE2080\2000х800\DAE/CQE\25\1883х686

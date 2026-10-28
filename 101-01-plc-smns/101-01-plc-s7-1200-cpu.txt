@@ -1,0 +1,5 @@
+menu Uпит.,
+menu В
+menu Описание
+menu --77
+CPU 1214C, артикул 6ES7 214-1HG40-0XB\=24В\14 x DI, 10 x DQ, 2 x AI, 100 Кбайт RAM, PROFINET 1 x RJ45\0,45

@@ -1,0 +1,21 @@
+menu Для двери
+menu шириной, мм
+menu --77
+menu Артикул
+menu --77
+menu --77
+menu Глубина,
+menu мм
+menu --77
+menu Вес, кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr Для шкафов VX, TS, CM, ES, PC.
+600\PS 4116.000\90\2,2
+800\PS 4118.000\90\2,8

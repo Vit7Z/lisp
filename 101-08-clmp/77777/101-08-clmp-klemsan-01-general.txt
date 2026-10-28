@@ -1,0 +1,8 @@
+Клемма Проходная Винт\101-08-clmp-klemsan-trmnl-through-screw.txt\7
+Клемма Проходная Пружин\101-08-clmp-klemsan-trmnl-through-spring.txt\7
+Клемма Проходная Push-In\101-08-clmp-klemsan-trmnl-through-push-in.txt\7
+Клемма С Предохранителем\101-08-clmp-klemsan-trmnl-w-fus.txt\7
+Клемма Защитного Провода\101-08-clmp-klemsan-trmnl-grounding.txt\7
+Перемычка\101-08-clmp-klemsan-bridge.txt\4
+Стопор Концевой\101-08-clmp-klemsan-clamp-end.txt\6
+Держатель Маркировки клем. групп\101-08-clmp-klemsan-group-label.txt\5

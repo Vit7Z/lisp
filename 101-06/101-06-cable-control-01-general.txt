@@ -1,0 +1,16 @@
+menu Жила х
+menu Диаметр
+menu --77
+menu Наруж.
+menu диаметр,
+menu мм
+menu Масса 
+menu 1 м, кг
+menu --77
+menu --77
+menu --77
+menu --77
+КВБбШвнг(А)-LS\101-06-cable-control-kvbbshv-ng-a-ls.txt\3\Кабельный завод "Кабэкс", г. Ревда\RU №0201708
+КВВБГ\101-06-cable-control-kvvbg.txt\3\ОАО "Электрокабель", г. Кольчугино\С-RU.ПБ14.В.00284
+КВВГнг-LS\101-06-cable-control-kvvg-ng-ls.txt\3\ООО "Камский кабель", г. Пермь"\С-RU.ПБ58.В.00087
+КВВГЭнг(А)-LS\101-06-cable-control-kvvg-e-ng-a-ls.txt\3\ООО "Сарансккабель", г. Саранск\С-RU.ПБ05.В.02957

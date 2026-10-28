@@ -1,0 +1,13 @@
+menu Жила х
+menu Диаметр
+menu --77
+menu Наруж.
+menu диаметр,
+menu мм
+menu Масса 
+menu 1 м, кг
+menu --77
+menu --77
+menu --77
+menu --77
+APХХХХ\101-06-cord-power-ap.txt\5\APC by Schneider Electric\Без сертификата

@@ -1,0 +1,18 @@
+menu Размеры
+menu ШхГ, мм
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr ****************************
+R5FZ6172\600х72\0,9
+R5FZ8172\800х172\1,4

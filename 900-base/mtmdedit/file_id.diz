@@ -1,0 +1,14 @@
+MtmdEdit 3.5 for AutoCAD
+Copyright (C) 2003-2021 Mansur Mamkin 
+
+
+MtmdEdit is a small ARX application for easy editing 
+of DTEXT, MTEXT objects and dimension text.
+
+Main features
+-------------
+- Several DTEXT objects editing at the same time 
+- Change line spacing between DTEXT objects
+- Align DTEXT objects
+- Make selection UPPERCASE(Ctrl+U) or lowercase(Ctrl+L)
+- Raw text editing

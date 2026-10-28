@@ -1,0 +1,20 @@
+Консоль\101-08-cbl-dsgn-iek-console-vc.txt\5
+Кронштейн настенный\101-08-cbl-dsgn-iek-kr-nast.txt\5
+Кронштейн замковый\101-08-cbl-dsgn-iek-kr-zamk.txt\5
+Кронштейн\101-08-cbl-dsgn-iek-kr.txt\5
+Скоба потолочная\101-08-cbl-dsgn-iek-skb-ptlch.txt\2
+Профиль перфорированный\101-08-cbl-dsgn-iek-prfl-prf.txt\4
+Втулка в профиль перфорированный\101-08-cbl-dsgn-iek-vtlk.txt\2
+Лоток перфорированный\101-08-cbl-dsgn-iek-ltk-prf.txt\5
+Крышка на лоток\101-08-cbl-dsgn-iek-kr-ltk-prf.txt\4
+Поворот на 90° гориз.\101-08-cbl-dsgn-iek-90-hrz.txt\4
+Поворот на 90° верт. внешний (вниз)\101-08-cbl-dsgn-iek-90-vrt-vn.txt\4
+Поворот на 90° верт. внутр. (вверх)\101-08-cbl-dsgn-iek-90-vrt-vnutr.txt\4
+Разветвитель Т-образный\101-08-cbl-dsgn-iek-rzv-t.txt\4
+Пластина соединительная\101-08-cbl-dsgn-iek-plst-sdnt.txt\4
+Пластина шарнирного соединения\101-08-cbl-dsgn-iek-plst-sdnt-shrn.txt\4
+Перегородка разделительная\101-08-cbl-dsgn-iek-rzd-prgrdk.txt\4
+Комплект соединительный\101-08-cbl-dsgn-iek-kmplkt-sdntl.txt\3
+Гайка со стопорным буртом\101-08-cbl-dsgn-iek-gaika.txt\3
+Болт со стопорным буртом\101-08-cbl-dsgn-iek-bolt.txt\3
+Соединитель перфорированный\101-08-cbl-dsgn-iek-sdntl-prf.txt\3

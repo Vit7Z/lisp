@@ -1,0 +1,23 @@
+menu Совместимое
+menu реле
+menu Тип
+menu зажима
+menu Цвет
+menu --77
+menu Опции
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr SMA - Металлический удерживающий зажим.
+94.04 SMA\55.32, 55.34\Пружина\Синий\SMA\0,1
+94.54 SMA\55.32, 55.34\Пружина\Синий\SMA\0,1

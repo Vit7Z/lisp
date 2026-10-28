@@ -1,0 +1,6 @@
+Серия DRA\101-04-pwr-unt-meanwell-dra.txt\7
+Серия EDR\101-04-pwr-unt-meanwell-edr.txt\7
+Серия HDR\101-04-pwr-unt-meanwell-hdr.txt\7
+Серия MDR\101-04-pwr-unt-meanwell-mdr.txt\7
+Серия SDR\101-04-pwr-unt-meanwell-sdr.txt\7
+Модуль. резервир.\101-04-pwr-unt-meanwell-rdn.txt\7

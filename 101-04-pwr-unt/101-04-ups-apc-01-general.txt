@@ -1,0 +1,2 @@
+ИБП\101-04-pwr-unt-ups-apc-ups.txt\5
+Батарея\101-04-pwr-unt-ups-apc-battery.txt\3

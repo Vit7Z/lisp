@@ -1,0 +1,14 @@
+menu Диапазон
+menu температур,
+menu С
+menu Тип
+menu контакта
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu --77
+menu --77
+menu --77
+dscr *************
+R5THV2\0...+60\NO\0,1

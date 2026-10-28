@@ -1,0 +1,12 @@
+menu Код заказа
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr ***
+DB42\1SAZ701902R0001\0,12

@@ -1,0 +1,5 @@
+MT8072\7"\=24Â (450לÀ)\800x480, Flash 128Ìב, RAM256 Ìב, SD Card Slot םוע, RS232 ץ 1, RS485 ץ 1, USB 2.0 ץ 1, Ethernet 10/100 Base-T ץ 1\0,5
+cMT1106X\10.1"\=24Â (720לÀ)\1024x600, Flash 4 Ãב, RAM 1 Ãב, SD Card Slot םוע, RS232 ץ 2, RS485 ץ 2, USB 2.0 ץ 1, Ethernet 10/100 Base-T ץ 1\1,2
+MT8100iE\10.1"\=24Â (400לÀ)\800ץ400, Flash 128 Ìב, RAM 128 Ìב, SD Card Slot םוע, COM1 (RS232, RS485 2W/4W), COM3 (RS485 2W), USB 2.0, Ethernet 10/100 Base-T\1,3
+MT8121XE3\12.1"\=24Â (1,5À)\1024ץ768, Flash 256 Ìב, RAM 256 Ìב, COM1 (RS232, RS485 2W/4W), COM3 (RS485 2W), USB 2.0, Ethernet 10/100 Base-T\2
+MT8121iE\12.1"\=24Â (1,5À)\1024ץ768, Flash 128 Ìב, RAM 256 Ìב, SD Card Slot, RS232 ץ 1, RS485 ץ 1 (2W/4W), USB 2.0 ץ 2, Ethernet 10/100 Base-T\2,1

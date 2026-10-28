@@ -1,0 +1,20 @@
+menu Артикул
+menu --77
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr Для крепления кабельных шин (шина 30/15, шина с угловым профилем).
+TS 4199.000\0,2

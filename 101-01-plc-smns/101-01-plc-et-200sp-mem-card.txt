@@ -1,0 +1,5 @@
+menu Объем, 
+menu --77
+SIMATIC S7, артикул 6ES7 954-8LC03-0AA0\4 Мб, 3.3В\0,01\Для S7-1x00 CPU/SINAMICS, 3,3В Flash.
+SIMATIC S7, артикул 6ES7 954-8LE03-0AA0\12 Мб, 3.3В\0,01\Для S7-1x00 CPU/SINAMICS, 3,3В Flash.
+SIMATIC S7, артикул 6ES7 954-8LF04-0AA0\24 Мб, 3.3В\0,01\Для S7-1x00 CPU/SINAMICS, 3,3В Flash.

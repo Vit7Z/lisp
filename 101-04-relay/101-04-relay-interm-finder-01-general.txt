@@ -1,0 +1,4 @@
+Серия 38, реле\101-04-relay-interm-finder-series-38-relay.txt\11
+Серия 38, перемычка\101-04-relay-interm-finder-series-38-jumper.txt\5
+Серия 55, реле\101-04-relay-interm-finder-series-55-relay.txt\11
+Серия 55, розетка\101-04-relay-interm-finder-series-55-socket.txt\6

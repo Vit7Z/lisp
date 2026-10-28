@@ -1,0 +1,20 @@
+menu Глубина полки,
+menu мм
+menu --77
+menu Артикул
+menu --77
+menu --77
+menu Нагрузочная
+menu способность,
+menu кг
+menu Масса, кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr Для приборных полок DK 71хх, 74хх. 
+500\DK 7081.000\50\1,95

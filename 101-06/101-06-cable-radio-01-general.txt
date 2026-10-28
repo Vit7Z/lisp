@@ -1,0 +1,13 @@
+menu Жила х
+menu Диаметр
+menu --77
+menu Наруж.
+menu диаметр,
+menu мм
+menu Масса 
+menu 1 м, кг
+menu --77
+menu --77
+menu --77
+menu --77
+РК-50-2-11\101-06-cable-radio-rk-50-2-11.txt\3\***\Без сертификата

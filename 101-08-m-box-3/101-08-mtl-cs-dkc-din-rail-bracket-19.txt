@@ -1,0 +1,17 @@
+menu Масса,
+menu кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr Для монтажа 19" вертикальных профилей. В компл. - 4 шт.
+R5MCRE01IT\2,12

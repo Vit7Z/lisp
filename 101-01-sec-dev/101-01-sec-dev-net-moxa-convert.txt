@@ -1,0 +1,12 @@
+menu Интерфейсы
+menu --77
+menu Uпит, В
+menu --77
+menu Монтаж
+menu --77
+menu Масса,
+menu кг
+NPort 5232\2 x RS-485 (клеммы), 1 x RJ45\=24 В\Плоскость\0,4\Для монтажа на DIN-рейку необходим DK35A. Протоколы Telnet, ICMP, TCP, UDP, DHCP, DNS, SNMP v1
+MGate MB3180\1 x RS-485 (DB9M), 1 x RJ45\=24 В\Плоскость\0,4\Для монтажа на DIN-рейку необходим DK35A. Mini DB9F-to-TB (переход на клеммы). Modbus TCP, SNMPv1/v2c/v3.
+MGate MB3280\2 x RS-485 (DB9M), 1 x RJ45\=24 В\Плоскость\0,4\Для монтажа на DIN-рейку необходим DK35A. Mini DB9F-to-TB (переход на клеммы). Modbus TCP, SNMPv1/v2c/v3.
+MGate MB3170I\1 x RS-485 (клеммы), 1 x RS-232 (DB9M), 2 x RJ45\=24 В\DIN-рейка\0,4\Modbus RTU/ASCII (RS-232/422/485) в Modbus TCP.

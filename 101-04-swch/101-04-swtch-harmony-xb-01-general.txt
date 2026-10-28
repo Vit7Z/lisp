@@ -1,0 +1,4 @@
+XB4\101-04-swtch-harmony-xb4.txt\8
+XB4 авар.\101-04-swtch-harmony-xb4-alarm.txt\8
+XB5\101-04-swtch-harmony-xb5.txt\8
+XB6\101-04-swtch-harmony-xb6.txt\8

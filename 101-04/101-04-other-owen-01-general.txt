@@ -1,0 +1,3 @@
+Вентилятор\101-04-other-owen-1-fan.txt\6
+Термостат для шкафа\101-04-other-owen-2-thermost.txt\3
+Решетка\101-04-other-owen-3-lattice.txt\3

@@ -1,0 +1,20 @@
+menu Ширина/глубина
+menu шкафа, мм
+menu --77
+menu Артикул
+menu --77
+menu --77
+menu Вес, кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr 101-08-mtl-cs-rittal-ts8-21.txt
+600/800\DK 7113.000\0,2

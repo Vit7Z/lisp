@@ -1,0 +1,18 @@
+menu Для 
+menu шкафов
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu Тип
+menu замка
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr В комплекте с замком.
+R5CE200\DAE/CQE\0,1\Бородка двойная
+R5CE202\DAE/CQE\0,1\Бородка двойная

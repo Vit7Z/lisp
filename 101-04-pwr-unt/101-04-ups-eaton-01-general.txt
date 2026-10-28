@@ -1,0 +1,4 @@
+ИБП\101-04-ups-eaton-ups.txt\5
+Батарея\101-04-ups-eaton-battery.txt\4
+Байпас\101-04-ups-eaton-bypass.txt\4
+Кабели для байпаса\101-04-ups-eaton-cabels-set.txt\3

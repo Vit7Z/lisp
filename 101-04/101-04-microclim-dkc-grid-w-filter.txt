@@ -1,0 +1,16 @@
+menu Размеры 
+menu ВхШ, мм
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr *************
+R5RF12\150x150\0,2
+R5RF13\205x205\0,4
+R5RF15\252x252\0,6

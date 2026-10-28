@@ -1,0 +1,8 @@
+Кабель силовой\101-06-cable-power-01-general.txt\5
+Кабель контрольный\101-06-cable-control-01-general.txt\5
+Кабель для интерфейса RS-485\101-06-cable-rs485-01-general.txt\5
+Кабель для IP-сетей (Ethernet)\101-06-cable-ethernet-01-general.txt\5
+Кабель монтажный\101-06-cable-inst-01-general.txt\5
+Кабель радиочастотный\101-06-cable-radio-01-general.txt\5
+Проводник установочный (монтажный)\101-06-wire-inst-01-general.txt\5
+Проводник заземляющий\101-06-wire-ground-01-general.txt\5

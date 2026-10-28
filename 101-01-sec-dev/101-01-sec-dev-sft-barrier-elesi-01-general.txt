@@ -1,0 +1,3 @@
+Аналоговый ввод\101-01-sec-dev-safety-barrier-elesi-ain.txt\7
+Аналоговый вывод\101-01-sec-dev-safety-barrier-elesi-aout.txt\7
+Дискретный ввод\101-01-sec-dev-safety-barrier-elesi-din.txt\7

@@ -1,0 +1,6 @@
+menu --77
+menu --77
+menu --77
+menu --77
+dscr ¬ключает в себ€: кабель IEC 10A C13 х IEC 16A C20; кабель IEC 10A C14 х IEC 16A C19; кабель сетевой IEC 16A C19 х Schuko.
+10A FR/DIN power cords\68439\0,9

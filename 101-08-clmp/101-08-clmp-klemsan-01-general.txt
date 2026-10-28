@@ -1,0 +1,10 @@
+Клемма проходная винтовая\101-08-clmp-klemsan-trmnl-through-screw.txt\6
+Клемма проходная пружинная\101-08-clmp-klemsan-trmnl-through-spring.txt\6
+Клемма проходная push-in\101-08-clmp-klemsan-trmnl-through-push-in.txt\6
+Клемма с предохранителем пружинная\101-08-clmp-klemsan-trmnl-w-fus-spring.txt\6
+Клемма заземления винтовая\101-08-clmp-klemsan-trmnl-grounding-screw.txt\6
+Клемма заземления пружинная\101-08-clmp-klemsan-trmnl-grounding-spring.txt\6
+Концевой сегмент\101-08-clmp-klemsan-end-segment.txt\3
+Перемычка\101-08-clmp-klemsan-bridge.txt\4
+Стопор концевой\101-08-clmp-klemsan-end-stopper.txt\6
+Держатель маркировки для клемм\101-08-clmp-klemsan-group-label.txt\5

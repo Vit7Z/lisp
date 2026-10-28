@@ -1,0 +1,10 @@
+Процессор\101-01-plc-et-200sp-cpu.txt\4
+Модуль A-in\101-01-plc-et-200sp-a-in.txt\4
+Модуль A-out\101-01-plc-et-200sp-a-out.txt\4
+Модуль D-in\101-01-plc-et-200sp-d-in.txt\4
+Модуль D-out\101-01-plc-et-200sp-d-out.txt\4
+Блок базовый\101-01-plc-et-200sp-base-unit.txt\4
+Модуль коммуникационный\101-01-plc-et-200sp-net.txt\4
+Модуль интерфейсный\101-01-plc-et-200sp-interface.txt\4
+Адаптер сетевой\101-01-plc-et-200sp-net-adapter.txt\4
+Карта памяти\101-01-plc-et-200sp-mem-card.txt\4

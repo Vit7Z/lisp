@@ -1,0 +1,14 @@
+menu Размеры 
+menu ВхШ, мм
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr *************
+R5KVF15\252x252\0,03

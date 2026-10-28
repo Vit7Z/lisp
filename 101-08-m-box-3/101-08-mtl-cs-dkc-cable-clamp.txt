@@ -1,0 +1,19 @@
+menu Диаметр
+menu кабеля, мм
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr ***
+R5CABF14\6...14\0,03
+R5CABF18\12...18\0,04
+R5CABF22\18...22\0,04

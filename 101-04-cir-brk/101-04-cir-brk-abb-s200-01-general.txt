@@ -1,0 +1,6 @@
+S 200, хар-ка С, 1 пол.\101-04-cir-brk-abb-s200-c-1pol.txt\3\0,13
+S 200, хар-ка С, 2 пол.\101-04-cir-brk-abb-s200-c-2pol.txt\3\0,25
+S 200, хар-ка С, 3 пол.\101-04-cir-brk-abb-s200-c-3pol.txt\3\0,38
+S 200M UC, хар-ка С, 2 пол.\101-04-cir-brk-abb-s200m-uc-c-2pol.txt\3\0,25
+S 800S, хар-ка С, 3 пол.\101-04-cir-brk-abb-s800s-c-3pol.txt\3\0,74
+Вспом. контакт\101-04-cir-brk-abb-s200-add-cont.txt\3\0,05

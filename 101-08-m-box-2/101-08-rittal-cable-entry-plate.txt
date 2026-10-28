@@ -1,0 +1,21 @@
+menu Артикул
+menu --77
+menu --77
+menu Ширна шкафа,
+menu мм
+menu --77
+menu Кол. вырезов
+menu --77
+menu --77
+menu Масса, кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr В комплекте 2шт.
+VX 8619.800\600\6\1,1
+VX 8619.801\800\8\1,4

@@ -1,0 +1,19 @@
+Шкаф сборный CQE\101-08-mtl-cs-dkc-metal-cabinet-cqe.txt\3
+Панель монтажная\101-08-mtl-cs-dkc-panel-mounting.txt\5
+Панели боковые\101-08-mtl-cs-dkc-panel-side.txt\4
+Цоколь (элементы угловые)\101-08-mtl-cs-dkc-plinth-corner-elements.txt\3
+Цоколь (панели)\101-08-mtl-cs-dkc-plinth-panels.txt\3
+Карман для документации\101-08-mtl-cs-dkc-pocket-doc.txt\3
+Ручка стандартная\101-08-mtl-cs-dkc-door-handle-standard.txt\4
+Полка фиксированная\101-08-mtl-cs-dkc-shelf-fixed.txt\5
+DIN-рейка (С-профиль)\101-08-mtl-cs-dkc-din-rail-c-shape.txt\5
+DIN-рейка\101-08-mtl-cs-dkc-din-rail.txt\4
+Кронштейн (для DIN-рейки)\101-08-mtl-cs-dkc-din-rail-bracket.txt\3
+Кронштейн (для 19" профилей)\101-08-mtl-cs-dkc-din-rail-bracket-19.txt\2
+Зажим для кабеля\101-08-mtl-cs-dkc-cable-clamp.txt\3
+Шина заземления\101-08-mtl-cs-dkc-earth-rail.txt\3
+Панель для кабельных вводов\101-08-mtl-cs-dkc-cable-entry-panel.txt\4
+Кабельный ввод\101-08-mtl-cs-dkc-cable-entry-membrane.txt\3
+Заглушка (дно шкафа)\101-08-mtl-cs-dkc-plug-cable-bottom.txt\3
+Короб перфорированный\101-08-mtl-cs-dkc-perforated-box.txt\4
+Шкаф навесной ST\101-08-mtl-cs-dkc-metal-cabinet-st.txt\3

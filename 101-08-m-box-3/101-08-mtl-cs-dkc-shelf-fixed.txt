@@ -1,0 +1,19 @@
+menu Размеры
+menu ШхГ, мм
+menu --77
+menu Для 
+menu шкафов
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu Макс.
+menu нагрузка,
+menu кг
+menu --77
+menu --77
+menu --77
+dscr Макс. нагрузка - 60 кг.
+R5RF860\800х600\CQE/DAE\4,5\60
+R5RFE66\600х600\CQE/DAE\6,7\250
+R5RFE86\800х600\CQE/DAE\8,7\250

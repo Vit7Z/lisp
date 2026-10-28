@@ -1,0 +1,13 @@
+menu Число жил х
+menu Диаметр
+menu жилы, мм
+menu Наружний
+menu диаметр,
+menu мм
+menu Масса 1м
+menu кабеля,
+menu кг
+menu --77
+menu --77
+menu --77
+РК-50-2-11\05-cable-radio-rk-50-2-11.txt\3

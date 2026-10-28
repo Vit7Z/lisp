@@ -1,0 +1,4 @@
+Контактор AF\101-04-contactors-abb-af.txt\9
+Доп. контакты AF\101-04-contactors-abb-af-add-cntct.txt\7
+Контактор B6\101-04-contactors-abb-b6.txt\9
+Доп. контакты B6\101-04-contactors-abb-b6-add-cntct.txt\7

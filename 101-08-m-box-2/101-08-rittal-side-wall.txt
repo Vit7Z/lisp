@@ -1,0 +1,20 @@
+menu Размер ВхГ,
+menu мм
+menu --77
+menu Артикул
+menu --77
+menu --77
+menu Вес, кг
+menu --77
+menu --77
+menu Цвет
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr Файл 101-08-rittal-02-side-wall-vx.txt.
+2000х600\VX 8106.245\29,0\RAL7035

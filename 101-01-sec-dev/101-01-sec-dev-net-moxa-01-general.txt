@@ -1,0 +1,4 @@
+Коммутатор Ethernet\101-01-sec-dev-net-moxa-swtch-eth.txt\6
+Конвертер интерфейсов\101-01-sec-dev-net-moxa-convert.txt\6
+Монтажный комплект\101-01-sec-dev-net-moxa-inst-kit.txt\3
+Переходник\101-01-sec-dev-net-moxa-wiring-kits.txt\3

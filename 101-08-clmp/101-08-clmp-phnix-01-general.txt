@@ -1,0 +1,11 @@
+Клемма Проходная\101-08-clmp-phnix-trmnl-through.txt\8
+Клемма Защитного провода\101-08-clmp-phnix-trmnl-protect-wire.txt\7
+Клемма С предохранителем\101-08-clmp-phnix-trmnl-w-fus.txt\8
+*Клемма Электротехническая\101-08-clmp-phnix-trmnl-el-tech.txt\7
+*Держатель маркировочных полос\101-08-phnix-cnt-trmnl-blck-1-level-add-on-klm.txt\4
+Наконечник кабельный\101-08-clmp-phnix-cable-tip.txt\6
+*Планка Zack (маркировка клемм)\101-08-phnix-cnt-trmnl-blck-1-level-add-on-strip-marking.txt\5
+*Пластина разделительная\101-08-phnix-cnt-trmnl-blck-1-level-add-on-part-plate.txt\3
+*Полоса маркировочная\101-08-phnix-cnt-trmnl-blck-1-level-add-on-esl.txt\6
+Соединитель поперечный\101-08-clmp-phnix-bridge.txt\5
+Стопор концевой\101-08-clmp-phnix-clamp-end.txt\7

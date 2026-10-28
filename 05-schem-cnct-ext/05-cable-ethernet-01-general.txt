@@ -1,0 +1,14 @@
+menu Жила х
+menu Диаметр
+menu --77
+menu Наруж.
+menu диаметр,
+menu мм
+menu Масса 
+menu 1 м, кг
+menu --77
+menu --77
+menu --77
+menu --77
+ParLan F/UTP Cat 5e\05-cable-ethernet-parlan-f-utp-cat-5e.txt\3
+ParLan F/UTP Cat 6\05-cable-ethernet-parlan-f-utp-cat-6.txt\3

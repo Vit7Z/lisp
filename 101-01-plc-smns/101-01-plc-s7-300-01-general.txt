@@ -1,0 +1,11 @@
+Процессор\101-01-controllers-siemens-s7-300-02-cpu\4
+Аналоговый ввод\101-01-controllers-siemens-s7-300-03-ai\4
+Аналоговый вывод\101-01-controllers-siemens-s7-300-04-ao\4 
+Дискретный ввод\101-01-controllers-siemens-s7-300-05-di\4
+Дискретный вывод\101-01-controllers-siemens-s7-300-06-do\4
+Модуль связи\101-01-controllers-siemens-s7-300-07-nets\4
+Блок питания\101-01-controllers-siemens-s7-300-08-pwr\4
+Штекер (для модуля связи)\101-01-controllers-siemens-s7-300-09-connectors-rj45\4
+Соединитель фронтальный\101-01-controllers-siemens-s7-300-10-front-connector\3
+Шина профильная\101-01-controllers-siemens-s7-300-11-tire-profile\3
+Карта Flash-EEPROM\101-01-controllers-siemens-s7-300-12-flash-eeprom\3

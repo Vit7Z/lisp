@@ -1,0 +1,15 @@
+menu Число жил х
+menu Диаметр
+menu жилы, мм
+menu Наружний
+menu диаметр,
+menu мм
+menu Масса 1м
+menu кабеля,
+menu кг
+menu --77
+menu --77
+menu --77
+ВВГнг(А)-LS (U до 660В)\05-cable-power-vvg-ng-a-ls-660.txt\3
+ВВГнг(А)-LS (U до 1000В)\05-cable-power-vvg-ng-a-ls-1000.txt\3
+ВВГЭнг-LS (U до 660В)\05-cable-power-vvg-e-ng-ls-660.txt\3

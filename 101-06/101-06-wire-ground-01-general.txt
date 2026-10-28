@@ -1,0 +1,13 @@
+menu Обозначение
+menu --77
+menu --77
+menu Длина,
+menu мм
+menu --77
+menu Масса 
+menu 1 шт, кг
+menu --77
+menu --77
+menu --77
+menu --77
+П-ХХХ\101-06-wire-ground-p.txt\3\ОАО РОЗМА, г. Ростов-на-Дону\Без сертификата

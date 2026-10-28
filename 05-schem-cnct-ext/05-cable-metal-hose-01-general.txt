@@ -1,0 +1,13 @@
+menu Число жил х
+menu Диаметр
+menu жилы, мм
+menu Наружний
+menu диаметр,
+menu мм
+menu Масса 1м
+menu кабеля,
+menu кг
+menu --77
+menu --77
+menu --77
+Р3-ЦХ\05-metal-hose-iek-rz-ch.txt\2

@@ -1,0 +1,4 @@
+Вентилятор\101-04-microclim-dkc-fan.txt\5
+Решетка с фильтром\101-04-microclim-dkc-grid-w-filter.txt\3
+Фильтр сменный\101-04-microclim-dkc-filter-replace.txt\3
+Термостат\101-04-microclim-dkc-thermostat.txt\4

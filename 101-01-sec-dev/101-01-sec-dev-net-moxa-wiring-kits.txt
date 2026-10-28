@@ -1,0 +1,9 @@
+menu Назначение
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu --77
+menu --77
+menu --77
+Mini DB9F-to-TB\Адаптер с разъема DB9F на винтовые клеммы\0,01

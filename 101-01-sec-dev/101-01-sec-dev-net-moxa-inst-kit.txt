@@ -1,0 +1,9 @@
+menu Назначение
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu --77
+menu --77
+menu --77
+DK35A\Адаптер для монтажа приборов (NPort, MGate) на DIN-рейку\0,01

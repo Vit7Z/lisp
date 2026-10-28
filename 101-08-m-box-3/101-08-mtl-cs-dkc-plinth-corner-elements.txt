@@ -1,0 +1,18 @@
+menu Высота,
+menu мм
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr Ед. измерения - в комплектах (в 1 комплекте - 4 шт.).
+R5BP01\100\3
+R5BP02\200\5,7

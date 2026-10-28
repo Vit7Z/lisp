@@ -1,0 +1,12 @@
+menu IP
+menu Iном
+menu Исп.
+menu --77
+menu Uпит.,
+menu В
+menu Ввод
+menu кабеля
+menu Масса,
+menu кг
+dscr 
+DIS13083\IP20 16А\2P+E\230В\Боковой\0,04

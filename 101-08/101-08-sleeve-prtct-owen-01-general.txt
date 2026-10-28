@@ -1,0 +1,6 @@
+16 МПа\М20х1,5\101-08-sleeve-prtct-owen-gz-161.txt
+16 МПа\М27х2\101-08-sleeve-prtct-owen-gz-162.txt
+16 МПа\G1/2\101-08-sleeve-prtct-owen-gz-163.txt
+25 МПа\М20х1,5\101-08-sleeve-prtct-owen-gz-251.txt
+25 МПа\М27х2\101-08-sleeve-prtct-owen-gz-252.txt
+25 МПа\G1/2\101-08-sleeve-prtct-owen-gz-253.txt

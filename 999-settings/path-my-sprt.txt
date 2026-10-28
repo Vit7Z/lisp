@@ -1,0 +1,21 @@
+C:\program files\autodesk\autocad 2017\express
+
+C:\Users\nado_\appdata\roaming\autodesk\autocad 2017\r21.0\rus\support\
+
+C:\program files\autodesk\autocad 2017\support
+
+C:\program files\autodesk\autocad 2017\support\ru-ru
+
+C:\program files\autodesk\autocad 2017\help
+
+C:\program files\autodesk\autocad 2017\fonts
+
+C:\program files\autodesk\autocad 2017\support\color
+
+C:\Program Files\Autodesk\ApplicationPlugins\SPDSExtension2017.bundle\Contents
+
+C:\Program Files (x86)\Autodesk\ApplicationPlugins\Autodesk ImportSkp.bundle\Contents\Resources
+
+C:\Program Files\Autodesk\ApplicationPlugins\SPDSExtension2017.bundle\Contents\Help\RU
+
+C:\Program Files\Autodesk\ApplicationPlugins\SPDSExtension2017.bundle\Contents\Support

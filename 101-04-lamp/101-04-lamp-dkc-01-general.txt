@@ -1,0 +1,3 @@
+Светильник\101-04-lamp-dkc-lamp.txt\6
+Вилка кабельная\101-04-lamp-dkc-cable-plug.txt\6
+Крепеж магнитный\101-04-lamp-dkc-fixings.txt\2

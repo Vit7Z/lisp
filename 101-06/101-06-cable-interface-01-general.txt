@@ -1,0 +1,13 @@
+menu Разъем 1
+menu --77
+menu --77
+menu Разъем 2
+menu --77
+menu --77
+menu Длина,
+menu м
+menu --77
+menu Масса,
+menu кг
+menu --77
+XYC013\101-06-cable-interface-rs-232.txt\4\Ningbo Xinya M&E\Без сертификата

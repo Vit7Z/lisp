@@ -1,0 +1,18 @@
+menu Длина,
+menu мм
+menu --77
+menu Кол.
+menu мест
+menu --77
+menu Масса,
+menu кг
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr Ед. измерения - в комплектах (в 1 комплекте - 2 шт.).
+R5FMP600\600\4\0,9
+R5FMP800\800\6\1,2

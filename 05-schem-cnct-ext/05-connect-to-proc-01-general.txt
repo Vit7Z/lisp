@@ -1,0 +1,8 @@
+Запорная арматура\05-connect-to-proc-shut-off-valves.txt\2
+Клапанные блоки\05-connect-to-proc-valve-block.txt\2
+Бобышки, гильзы\05-connect-to-proc-boss.txt\2
+Переходники\05-connect-to-proc-adapter.txt\2
+Сосуды уравнительные\05-connect-to-proc-equalizing-vessel.txt\2
+Закладные конструкции\05-connect-to-proc-embedded-construction.txt\2
+Трубки имп.\05-connect-to-proc-pulse-tube.txt\2
+Соединения имп. труб\05-connect-to-proc-connection.txt\2

@@ -1,0 +1,4 @@
+menu ѕараметры
+menu --77
+dscr ***
+CM PtP, артикул 6ES7 137-6AA01-0BA0\RS422, RS485, RS232\0,03\Modbus RTU, Master, Slave, до 115200  бит/с

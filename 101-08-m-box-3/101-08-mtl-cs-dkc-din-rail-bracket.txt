@@ -1,0 +1,17 @@
+menu Масса,
+menu кг
+menu --77
+menu Обозначение
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+menu --77
+dscr Для закрепления DIN-рейки.
+02190\0,8\ST

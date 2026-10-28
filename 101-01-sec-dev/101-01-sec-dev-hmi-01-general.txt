@@ -1,0 +1,2 @@
+Analog Input\101-01-secondary-device-pepperl-fuchs-02-ai\6\56757
+Digital Output\101-01-secondary-device-pepperl-fuchs-04-do\6\Без свидетельства

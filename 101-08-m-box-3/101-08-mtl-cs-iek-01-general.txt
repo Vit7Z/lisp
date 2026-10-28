@@ -1,0 +1,4 @@
+Корпус металлический ЩМП\101-08-mtl-cs-iek-case-shmp.txt\5
+Корпус металлический TITAN 5\101-08-mtl-cs-iek-case-titan-5.txt\5
+Кабель-канал перфорированный\101-08-mtl-cs-iek-cable-channel-impact.txt\3
+DIN-рейка\101-08-mtl-cs-iek-din-rail.txt\3

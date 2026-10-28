@@ -1,0 +1,14 @@
+menu Жила х
+menu Диаметр
+menu --77
+menu Наруж.
+menu диаметр,
+menu мм
+menu Масса 
+menu 1 м, кг
+menu --77
+menu --77
+menu --77
+menu --77
+ParLan F/UTP Cat 5e\101-06-cable-ethernet-parlan-f-utp-cat-5e.txt\3\ООО ТПД "Паритет", г. Подольск\C-RU.ПБ05.В.04191
+ParLan F/UTP Cat 6\101-06-cable-ethernet-parlan-f-utp-cat-6.txt\3\ООО ТПД "Паритет", г. Подольск\C-RU.ПБ05.В.04191

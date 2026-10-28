@@ -1,0 +1,6 @@
+menu Iном  Разъемы
+menu --77
+menu --77
+menu --77
+dscr Для ИБП мощностью до 2000VA необходимы кабели для байпаса - 10A FR/DIN power cords.
+HotSwap MBP IEC\68433\16А  IEC 10А х 6 и IEC 16А х 8\1,9

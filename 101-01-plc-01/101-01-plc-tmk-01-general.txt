@@ -1,0 +1,11 @@
+Модуль процессора\101-01-controllers-elsi-tmk-plc.txt\4
+Модуль аналогового ввода, U/I\101-01-controllers-elsi-tmk-ai-01.txt\4
+Модуль аналогового ввода, термо\101-01-controllers-elsi-tmk-ai-02.txt\4
+Модуль аналогового вывода\101-01-controllers-elsi-tmk-ao.txt\4
+Модуль дискретного ввода\101-01-controllers-elsi-tmk-di.txt\4
+Модуль дискретного вывода\101-01-controllers-elsi-tmk-do.txt\4
+Модуль питания\101-01-controllers-elsi-tmk-pwr.txt\4
+Модуль коммуникационный\101-01-controllers-elsi-tmk-net.txt\4
+Панель коммутационная\101-01-controllers-elsi-tmk-backpl.txt\4
+Кабель подключения к модулю\101-01-controllers-elsi-tmk-cable-plug.txt\4
+Софт\101-01-controllers-elsi-tmk-soft.txt\4

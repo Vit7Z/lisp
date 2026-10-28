@@ -1,0 +1,4 @@
+Звонок Schneider Electric\101-04-bell-schneider-electric.txt\5
+Сирена\101-04-bell-buzzer.txt\5
+Оповещатель\101-04-bell-alerter.txt\5
+Оповещатель EKF PROxima\101-04-bell-ekf-proxima.txt\5

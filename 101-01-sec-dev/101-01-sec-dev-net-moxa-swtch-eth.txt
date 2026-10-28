@@ -1,0 +1,12 @@
+menu Интерфейсы
+menu --77
+menu Uпит, В
+menu --77
+menu Монтаж
+menu --77
+menu Масса,
+menu кг
+EDS-205\5 x RJ45\=24 В\DIN-рейка\0,1\Неуправляемый. Пластиковый корпус. Ethernet: 10BASE-T, 100BASE-TX
+EDS-308\8 x RJ45\=24 В\DIN-рейка\0,8\Неуправляемый. Пластиковый корпус. Ethernet: 10BASE-T, 100BASE-TX
+EDS-308-M-SC\7 x RJ45, 1 x SC\=24 В\DIN-рейка\0,8\Неуправляемый. Пластиковый корпус. SC - многомодовое. Ethernet: 10BASE-T, 100BASE-FX, 100BASE-TX
+EDS-510E-3GTXSFP\7 x RJ45, 3 x SFP\=24 В\DIN-рейка\1,7\Управляемый. Металл. корпус. 3xSFP = витая пара + SFP. Ethernet: 10/100/1000BASE-TX. Протокол MRP

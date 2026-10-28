@@ -1,0 +1,24 @@
+Корпус шкафа\101-08-rittal-m-box.txt\5
+Стенки боковые\101-08-rittal-side-wall.txt\4
+Ручка для двери\101-08-rittal-door-handle.txt\6
+Замок для двери\101-08-rittal-door-lock.txt\6
+Карман для документации\101-08-rittal-pocket-doc.txt\4
+Цоколь, эл. передние и задние\101-08-rittal-plinth-front.txt\6
+Цоколь, эл. боковые\101-08-rittal-plinth-side.txt\6
+Полка приборная\101-08-rittal-shelf.txt\5
+Направляющие (для полки приборн.)\101-08-rittal-telescope-slides.txt\4
+Шасси системные\101-08-rittal-punched-section.txt\4
+Держатель (для кабеля)\101-08-rittal-cable-support.txt\2
+Шина кабельная 30/15\101-08-rittal-cable-bus-30-15.txt\4
+Держатель (для шины 30/15)\101-08-rittal-cable-bus-30-15-bracket.txt\2
+Зажим для кабеля (крепл. к шине 30/15)\101-08-rittal-cable-bus-30-15-clip.txt\4
+Шина заземления\101-08-rittal-earth-rail.txt\3
+Панель для ввода кабеля\101-08-rittal-cable-entry-plate.txt\4
+Кабельный ввод\101-08-rittal-cable-entry-grommet.txt\4
+Вентилятор фильтрующий\101-08-rittal-vent.txt\5
+Регулятор внутр. температуры шкафа\101-08-rittal-regul-tmp.txt\2
+Светильник (светодиодн.)\101-08-rittal-lamp.txt\5
+Кабель (для светильника)\101-08-rittal-lamp-cable.txt\5
+Выключатель концевой\101-08-rittal-swtch-end.txt\4
+Фильтр выходной\101-08-rittal-filter.txt\5
+Прокладки фильтрующие\101-08-rittal-filter-add.txt\4

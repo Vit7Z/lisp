@@ -1,0 +1,24 @@
+Лоток перфорированный, толщ. 1мм, исп. 1\101-08-cbl-dsgn-dks-s5-tray-perf-th-1-exec-1.txt\3
+Крышка лотка, толщ. 0.8мм, исп. 1\101-08-cbl-dsgn-dks-s5-tray-perf-cover-th-06-exec-1.txt\3
+Угол гориз. СРО 90, исп. 1\101-08-cbl-dsgn-dks-s5-angl-hrz-cpo-90-th-1-exec-1.txt\3
+Крышка для угла СРО 90, исп. 1\101-08-cbl-dsgn-dks-s5-angl-hrz-cpo-90-cover-th-1-exec-1.txt\3
+Угол гориз. измен. СРО 90 , исп. 1\101-08-cbl-dsgn-dks-s5-angl-hrz-cpo-90-change-th-1-exec-1.txt\3
+Угол верт. внутренний CS 90, исп. 1\101-08-cbl-dsgn-dks-s5-angl-vert-int-cs-90-th-1-exec-1.txt\3
+Крышка для угла CS 90, исп. 1\101-08-cbl-dsgn-dks-s5-angl-vert-int-cs-90-cover-th-1-exec-1.txt\3
+Угол верт. внешний CD 90, исп. 1\101-08-cbl-dsgn-dks-s5-angl-vert-ext-cd-90-th-1-exec-1.txt\3
+Крышка для угла CD 90, исп. 1\101-08-cbl-dsgn-dks-s5-angl-vert-ext-cd-90-cover-th-1-exec-1.txt\3
+Ответвитель Т-образный DPT, исп. 1\101-08-cbl-dsgn-dks-s5-branch-dpt-exec-1.txt\3
+Крышка для ответвителя DPT, исп. 1\101-08-cbl-dsgn-dks-s5-branch-dpt-cover-exec-1.txt\3
+Ответвитель Т-образный DL, исп. 1\101-08-cbl-dsgn-dks-s5-branch-dl-exec-1.txt\3
+Крышка для ответвителя DL, исп. 1\101-08-cbl-dsgn-dks-s5-branch-dl-cover-exec-1.txt\3
+Ответвитель крестообразный DPX, исп. 1\101-08-cbl-dsgn-dks-s5-branch-dpx-exec-1.txt\3
+Крышка для ответвителя DPX, исп. 1\101-08-cbl-dsgn-dks-s5-branch-dpx-cover-exec-1.txt\3
+Переходник левосторонний RRS, исп. 1\101-08-cbl-dsgn-dks-s5-adapter-left-hand-rrs-exec-1.txt\3
+Переходник правосторонний RRD, исп. 1\101-08-cbl-dsgn-dks-s5-adapter-right-hand-rrd-exec-1.txt\3
+Соединитель шарнирный GSV, исп. 1\101-08-cbl-dsgn-dks-s5-joint-gsv-exec-1.txt\3
+Перегородка SEP, исп. 1\101-08-cbl-dsgn-dks-s5-partition-sep-exec-1.txt\3
+Крепление к потолку\101-08-cbl-dsgn-dks-s5-ceiling-mounting-01-general.txt\3
+Консоль\101-08-cbl-dsgn-dks-s5-console-01-general.txt\3
+Профиль\101-08-cbl-dsgn-dks-s5-prof-01-general.txt\3
+Винт, исп. 1\101-08-cbl-dsgn-dks-s5-screw-exec-1.txt\3
+Гайка, исп. 1\101-08-cbl-dsgn-dks-s5-nut-exec-1.txt\3
