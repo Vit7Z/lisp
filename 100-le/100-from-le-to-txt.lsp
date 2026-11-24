@@ -3,7 +3,11 @@
 ;/////// ************************************************************ //////////////////////////////////////////////////////////////////
 (defun c:100-from-le-to-txt
 
-( / adoc cntr-1 counter-1 dlt-x dlt-y dwg-file-dir file-to-write flag-1 flag-2 flag-3 flag-4 line-counter list-902 name-file-dwg name-file-spcf number-lines pnt-bttm pnt-top str-txt tmp-note tmp-pos tmp-tech tmp-vol txt-str xpnt-01 xpnt-bttm xpnt-top ypnt-01 ypnt-bttm ypnt-top)
+( / adoc counter counter-line cur-date cur-day cur-hrs cur-min cur-month cur-year dwg-file-dir file-to-write flag key-txt list-1 list-2 
+list-3 list-4 list-902 name-file-dwg name-file-spcf number-line number-lines pnt-1 pnt-2 pnt-bttm pnt-top str-txt txt-1-tmp txt-2-tmp 
+txt-3-tmp txt-4-tmp txt-obj-1 txt-obj-2 txt-obj-3 txt-obj-4 xpnt-01 ypnt-01 ypnt-02)
+
+;точки указания - левая граница графы "Позиция" и правая граница графы "Примечание"
 
 (vl-load-com)
 (vla-startundomark (setq adoc (vla-get-activedocument (vlax-get-acad-object))));start undo
@@ -11,165 +15,190 @@
 (setvar "cmdecho" 1)
 (setvar "osmode" 6199)
 
-(setq line-counter 1 ;номер по порядку
-);setq
+(setq counter-line 1);setq
 
-(while (/= nil (setq pnt-top (getpoint "\nВыберите точку верх\n")))
-	(setq	pnt-bttm (getpoint "\nВыберите точку низ\n")
-	
-				xpnt-top (nth 0 pnt-top)
-				ypnt-top (nth 1 pnt-top)
+(while (/= nil (setq pnt-top (getpoint "\nУкажите точку верх - лев. сторона Позиция\n")))
+	(setq	pnt-bttm (getpoint "\nУкажите точку низ - прав. сторона Примечание\n")
+				xpnt-01 (nth 0 pnt-top)
+				ypnt-01 (nth 1 pnt-top)
+				ypnt-02 (nth 1 pnt-bttm)
 				
-				xpnt-bttm (nth 0 pnt-bttm)
-				ypnt-bttm (nth 1 pnt-bttm)
-
-				dlt-y (- ypnt-top ypnt-bttm)
-				number-lines (fix (/ dlt-y 8))
+				number-lines (fix (/ (- ypnt-01 ypnt-02) 8))
+			
+				list-1 ""
+				list-2 ""
+				list-3 ""
+				list-4 ""
 				
-				xpnt-01 xpnt-top
-				ypnt-01 ypnt-top
-				
-				tmp-pos "" ;текст из строки "поз. обозначение"
-				tmp-tech "" ;текст из строки "наименование"
-				tmp-vol "" ;текст из строки "количество"
-				tmp-note "" ;текст из строки "примечание"
-				
-				flag-1 nil
-				flag-2 nil
-				flag-3 nil
-				flag-4 nil
-				
-				counter-1 0;количество повторений циклов
+				counter 1				
 	);setq
 	
+	(setvar "osmode" 0)
 	
 	(repeat number-lines
-	
-		;;;;;;;сбор текста из графы "поз. обозначение" /////////////////////////
-		(setq xpnt-01 xpnt-top
-					dlt-x 20
+		(setq ypnt-02 (- ypnt-01 4)
+		      txt-1-tmp nil
+				  txt-2-tmp nil
+				  txt-3-tmp nil
+				  txt-4-tmp nil
 		);setq
-
-		(tmp-reading-data-from-graphs xpnt-01 ypnt-01 dlt-x)
-		
-		(if (/= txt-str nil)
-			(setq tmp-pos (strcat tmp-pos " " txt-str)
-						flag-1 1
-			);setq
-			(setq flag-1 nil);setq
-		);if
-		
-				
-		;;;;;;;сбор текста из графы "наименование" /////////////////////////
-		(setq xpnt-01 (+ xpnt-top 110)
-					dlt-x 110
-		);setq
-		
-		(tmp-reading-data-from-graphs xpnt-01 ypnt-01 dlt-x)
-		
-		(if (/= txt-str nil)
-			(setq tmp-tech (strcat tmp-tech " " txt-str)
-						flag-2 1
-			);setq
-			(setq flag-2 nil);setq
-		);if
-		
-		;;;;;;;сбор текста из графы "количество" /////////////////////////
-		(setq xpnt-01 (+ xpnt-top 120)
-					dlt-x 10
-		);setq
-		
-		(tmp-reading-data-from-graphs xpnt-01 ypnt-01 dlt-x)
-		
-		(if (/= txt-str nil)
-			(setq tmp-vol txt-str
-						flag-3 1
-			);setq
-			(setq flag-3 nil);setq
-		);if
-		
-		;;;;;;;сбор текста из графы "примечание///////////////
-		(setq xpnt-01 (+ xpnt-top 165)
-					dlt-x 45
-		);setq
-		
-		(tmp-reading-data-from-graphs xpnt-01 ypnt-01 dlt-x)
-		
-		(if (/= txt-str nil)
-			(setq tmp-note (strcat tmp-note " " txt-str)
-						flag-4 1
-			);setq
-			(setq flag-4 nil);setq
-		);if
-				
-		(if (and (= flag-1 nil) (= flag-2 nil) (= flag-3 nil) (= flag-4 nil))
-			(setq str-txt (list (strcat (itoa line-counter) ";" tmp-pos ";" tmp-tech ";" tmp-vol ";" tmp-note))
-						list-902 (vl-list* str-txt list-902)
-					
-						tmp-pos ""
-						tmp-tech ""
-						tmp-vol ""
-						tmp-note ""
-				
-						flag-1 nil
-						flag-2 nil
-						flag-3 nil
-						flag-4 nil
-					
-						line-counter (+ line-counter 1)
-			);setq
-		);if
-		
-		(setq ypnt-01 (- ypnt-01 8)
-					counter-1 (+ counter-1 1)
-		);setq
-	
-		(if (and (= counter-1 number-lines)
-						 (or (/= flag-1 nil) (/= flag-2 nil) (/= flag-3 nil) (/= flag-4 nil)));and
-			(setq str-txt (list (strcat (itoa line-counter) ";" tmp-pos ";" tmp-tech ";" tmp-vol ";" tmp-note))
-						list-902 (vl-list* str-txt list-902)
-					
-						tmp-pos ""
-						tmp-tech ""
-						tmp-vol ""
-						tmp-note ""
-				
-						flag-1 nil
-						flag-2 nil
-						flag-3 nil
-						flag-4 nil
 						
-						line-counter (+ line-counter 1)
-			);setq
+		;;;;;;сбор из графы 1 /////////////////////
+		(setq pnt-1 (list xpnt-01 ypnt-02) ;точки рамки
+					pnt-2 (list (+ xpnt-01 20) ypnt-02)
+					txt-obj-1 (ssget "_F" (list pnt-1 pnt-2) '((0 . "*TEXT")))
+		);setq
+
+		(if (/= txt-obj-1 nil)
+			(progn
+				(setq txt-1-tmp (cdr (assoc 1 (entget (ssname txt-obj-1 0)))));setq
+			
+				(cond 
+					((/= list-1 "") (setq list-1 (strcat list-1 " " txt-1-tmp)));setq
+					((= list-1 "") (setq list-1 txt-1-tmp));setq
+				);cond
+			);progn
 		);if
+				
+		;;;;;;сбор из графы 2 /////////////////////
+		(setq pnt-1 (list (+ xpnt-01 130) ypnt-02) ;точки рамки
+					pnt-2 (list (+ xpnt-01 20) ypnt-02)
+					txt-obj-2 (ssget "_F" (list pnt-1 pnt-2) '((0 . "*TEXT")))
+		);setq
+		
+		(if (/= txt-obj-2 nil)
+			(progn
+				(setq txt-2-tmp (cdr (assoc 1 (entget (ssname txt-obj-2 0)))));setq
+				
+				(cond 
+					((/= list-2 "") (setq list-2 (strcat list-2 " " txt-2-tmp)));setq
+					((= list-2 "") (setq list-2 txt-2-tmp));setq
+				);cond
+			);progn
+		);if
+
+
+		;;;;;;сбор из графы 3 /////////////////////
+		(setq pnt-1 (list (+ xpnt-01 140) ypnt-02) ;точки рамки
+					pnt-2 (list (+ xpnt-01 130) ypnt-02)
+					txt-obj-3 (ssget "_F" (list pnt-1 pnt-2) '((0 . "*TEXT")))
+		);setq
+		
+		;(command "_RECTANGLE" pnt-1 pnt-2 pnt-1)
+
+		(if (/= txt-obj-3 nil)
+			(progn
+				(setq txt-3-tmp (cdr (assoc 1 (entget (ssname txt-obj-3 0)))));setq
+			
+				(cond 
+					((/= list-3 "") (setq list-3 (strcat list-3 " " txt-3-tmp)));setq
+					((= list-3 "") (setq list-3 txt-3-tmp));setq
+				);cond
+			);progn
+		);if
+
+		;;;;;;сбор из графы 4 /////////////////////
+		(setq pnt-1 (list (+ xpnt-01 185) ypnt-02) ;точки рамки
+					pnt-2 (list (+ xpnt-01 140) ypnt-02)
+					txt-obj-4 (ssget "_F" (list pnt-1 pnt-2) '((0 . "*TEXT")))
+		);setq
+
+		(if (/= txt-obj-4 nil)
+			(progn
+				(setq txt-4-tmp (cdr (assoc 1 (entget (ssname txt-obj-4 0)))));setq
+				
+				(cond 
+					((/= list-4 "") (setq list-4 (strcat list-4 " " txt-4-tmp)));setq
+					((= list-4 "") (setq list-4 txt-4-tmp));setq
+				);cond
+			);progn
+		);if
+		
+		
+		(setq list-1 (vl-string-left-trim " " list-1)
+		      list-1 (vl-string-subst "..." "... " list-1)
+		      list-1 (vl-string-subst " " "  " list-1)
+					list-2 (vl-string-left-trim " " list-2)
+					list-2 (vl-string-subst " " "  " list-2)
+					list-3 (vl-string-left-trim " " list-3)
+					list-4 (vl-string-left-trim " " list-4)
+		);setq
+	
+		(if (or (and (= txt-obj-1 nil) (= txt-obj-2 nil) (= txt-obj-3 nil) (= txt-obj-4 nil))
+		    (= counter number-lines))
+		  (progn		  
+		    (setq key-txt (substr list-2 1 2));setq
+		    
+		    (if (= key-txt "%%")
+				  (setq list-2 (substr list-2 4)
+				        str-txt (list (strcat ";" list-1 ";" list-2 ";" list-3 ";" list-4))
+				  );setq
+				);if
+			
+
+		    (if (/= key-txt "%%")
+				  (setq number-line (itoa counter-line)
+				        str-txt (list (strcat number-line ";" list-1 ";" list-2 ";" list-3 ";" list-4))
+				        counter-line (1+ counter-line)
+				  );setq
+				);if
+		  
+		    (setq list-902 (vl-list* str-txt list-902)
+		          str-txt nil						
+						  list-1 ""						
+						  list-2 ""
+						  list-3 ""
+						  list-4 ""
+						
+						  txt-1-tmp nil
+				      txt-2-tmp nil
+				      txt-3-tmp nil
+				      txt-4-tmp nil
+		    );setq
+		  );progn
+		);if
+		
+
+
+		(setq	ypnt-01 (- ypnt-01 8)
+					counter (1+ counter)
+		);setq
 	);repeat
+	
+	(setvar "osmode" 6199)
 );while
-
-(setq list-902 (reverse list-902));setq
-
-(setq name-file-dwg (vl-string-right-trim ".dwg" (getvar "dwgname"))
+		
+(setq list-902 (reverse list-902)
+			name-file-dwg (vl-string-right-trim ".dwg" (getvar "dwgname"))
 			dwg-file-dir (getvar "dwgprefix")
-			name-file-spcf (strcat name-file-dwg " list of elements")
+			
+			cur-date (rtos (getvar "cdate"))
+			cur-year (substr cur-date 1 4)
+			cur-month (substr cur-date 5 2)
+			cur-day (substr cur-date 7 2)
+			cur-hrs (substr cur-date 10 2)
+			cur-min (substr cur-date 12 2)
+
+			name-file-spcf (strcat name-file-dwg "-" cur-year "-" cur-month "-" cur-day "-" cur-hrs "-" cur-min "-list of elements.txt")
+			
+			file-to-write (open (strcat dwg-file-dir name-file-spcf) "w")
 );setq
-
-(setq file-to-write (open (strcat dwg-file-dir name-file-spcf ".txt") "w"));setq
 	
-(write-line (strcat "№ п/п;Позиция;Наименование и техническая характеристика;"
-										"Количество;"
+(write-line (strcat "№ п/п;"
+                    "Позиция;"
+                    "Наименование и техническая характеристика;"
+										"Количество;"										
 										"Примечание") file-to-write)
-	
+										
 (write-line "1;2;3;4;5" file-to-write)
-
-(setq cntr-1 0)
+	
+(setq counter 0)
 
 (repeat (length list-902)
-	(setq str-txt (car (nth cntr-1 list-902)));setq
-	
-	(write-line str-txt file-to-write)
-	
-	(write-line "" file-to-write)
-	
-	(setq cntr-1 (1+ cntr-1));setq
+	(setq str-txt (car (nth counter list-902)));setq
+	(write-line str-txt file-to-write)	
+	(write-line "" file-to-write)	
+	(setq counter (1+ counter));setq
 );repeat
 
 (close file-to-write)
@@ -179,45 +208,6 @@
 (vla-endundomark adoc)
 (princ)
 )
-;/////// *************************************************************///////////////////////////////////////////////////////////////////////////////////////////////////////////
-;/////// КОНЕЦ ПРОГРАММЫ                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////
-;/////// *************************************************************///////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-;/////// *************************************************************///////////////////////////////////////////////////////////////////////////////////////////////////////////
-;/////// чтение данных из графы                                       ///////////////////////////////////////////////////////////////////////////////////////////////////////////
-;/////// *************************************************************///////////////////////////////////////////////////////////////////////////////////////////////////////////
-(defun tmp-reading-data-from-graphs
-
-(xpnt-01 ypnt-01 dlt-x / data-primitive line-sec pnt-1 pnt-2 txt-primitive)
-
-(setvar "osmode" 0)
-
-;;;;;;;извлекаем текст строки в графе
-(setq ypnt-01 (- ypnt-01 4)
-
-			pnt-1 (list xpnt-01 ypnt-01) ;точки рамки
-			pnt-2 (list (- xpnt-01 dlt-x) ypnt-01)
-			
-			line-sec (list pnt-1 pnt-2)
-			txt-primitive (ssget "_F" line-sec '((0 . "*TEXT")))
-			txt-str nil
-);setq
-	
-(if (/= txt-primitive nil)
-	(setq data-primitive (entget (ssname txt-primitive 0))
-				txt-str (cdr (assoc 1 data-primitive))
-				txt-str (vl-string-right-trim " " txt-str)
-				txt-str (vl-string-left-trim " " txt-str)
-	);setq
-);if
-
-(setvar "osmode" 6199)
-
-(princ)
-)
-
-;/////// *************************************************************///////////////////////////////////////////////////////////////////////////////////////////////////////////
-;/////// КОНЕЦ ПРОГРАММЫ                                              ///////////////////////////////////////////////////////////////////////////////////////////////////////////
-;/////// *************************************************************///////////////////////////////////////////////////////////////////////////////////////////////////////////
+;/////// *************************************************************//////////////////////////////
+;/////// КОНЕЦ ПРОГРАММЫ                                              //////////////////////////////
+;/////// *************************************************************//////////////////////////////
